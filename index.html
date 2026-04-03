@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1965 Fort Wolters Commemorative Lighter - Authenticated Military Artifact</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            color: #d4af37;
+            padding: 60px 20px;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-size: 1.1em;
+            color: #e0e0e0;
+            font-weight: 300;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        section {
+            background: white;
+            margin-bottom: 30px;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #1a1a1a;
+            font-size: 2em;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #d4af37;
+            padding-bottom: 10px;
+        }
+
+        section h3 {
+            color: #2d2d2d;
+            font-size: 1.4em;
+            margin-top: 20px;
+            margin-bottom: 15px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table th, table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        table th {
+            background-color: #1a1a1a;
+            color: #d4af37;
+            font-weight: 600;
+        }
+
+        table tr:hover {
+            background-color: #f9f9f9;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .gallery-item {
+            background: #f9f9f9;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .gallery-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .gallery-item-caption {
+            padding: 15px;
+            font-size: 0.95em;
+            color: #555;
+            font-weight: 500;
+        }
+
+        .value-highlight {
+            background: linear-gradient(135deg, #d4af37 0%, #c9a66b 100%);
+            color: #1a1a1a;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            font-size: 1.2em;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .specs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .spec-card {
+            background: #f5f5f5;
+            padding: 15px;
+            border-left: 4px solid #d4af37;
+            border-radius: 4px;
+        }
+
+        .spec-label {
+            font-weight: 600;
+            color: #1a1a1a;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .spec-value {
+            color: #555;
+            margin-top: 5px;
+            font-size: 1.1em;
+        }
+
+        .timeline {
+            position: relative;
+            padding: 20px 0;
+        }
+
+        .timeline-item {
+            padding-left: 40px;
+            margin-bottom: 25px;
+            position: relative;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 20px;
+            height: 20px;
+            background: #d4af37;
+            border-radius: 50%;
+            border: 3px solid #1a1a1a;
+        }
+
+        .timeline-item::after {
+            content: '';
+            position: absolute;
+            left: 8px;
+            top: 20px;
+            width: 4px;
+            height: 25px;
+            background: #d4af37;
+        }
+
+        .timeline-item:last-child::after {
+            display: none;
+        }
+
+        .timeline-year {
+            font-weight: 600;
+            color: #d4af37;
+            font-size: 0.9em;
+            text-transform: uppercase;
+        }
+
+        .timeline-item h4 {
+            color: #1a1a1a;
+            margin: 5px 0;
+        }
+
+        .timeline-item p {
+            color: #666;
+            font-size: 0.95em;
+        }
+
+        footer {
+            background: #1a1a1a;
+            color: #d4af37;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 50px;
+            font-size: 0.9em;
+        }
+
+        footer a {
+            color: #d4af37;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .reference-link {
+            color: #d4af37;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .reference-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+
+            section {
+                padding: 20px;
+            }
+
+            section h2 {
+                font-size: 1.5em;
+            }
+
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>⚡ 1965 Fort Wolters Commemorative Lighter</h1>
+        <p>An Authenticated Military Artifact from the Inaugural Hughes TH-55A Osage Training Class</p>
+    </header>
+
+    <div class="container">
+        <!-- Executive Summary -->
+        <section>
+            <h2>Executive Summary</h2>
+            <p>This document provides a comprehensive and factual overview of the 1965 Fort Wolters Commemorative Lighter, an authenticated artifact that encapsulates a pivotal moment in U.S. Army Aviation history. This unique presentation piece, originally belonging to Warrant Officer Candidate (WOC) Arthur P. Lancy Jr., serves as a tangible link to the inaugural class of helicopter pilots trained on the Hughes TH-55A Osage at Fort Wolters, Texas. Its verified provenance, historical significance, and exceptional condition position it as a highly valuable collectible.</p>
+        </section>
+
+        <!-- Artifact Identification -->
+        <section>
+            <h2>Artifact Identification</h2>
+            <table>
+                <tr>
+                    <th>Attribute</th>
+                    <th>Detail</th>
+                </tr>
+                <tr>
+                    <td><strong>Object</strong></td>
+                    <td>1965 Park Industries Presentation Lighter</td>
+                </tr>
+                <tr>
+                    <td><strong>Reference ID</strong></td>
+                    <td>FW-ARC-0001 / ALJ-65-9WA-COA-001</td>
+                </tr>
+                <tr>
+                    <td><strong>Manufacturer</strong></td>
+                    <td>Park Industries, Murfreesboro, Tennessee, U.S.A.</td>
+                </tr>
+                <tr>
+                    <td><strong>Material</strong></td>
+                    <td>Brushed Metal Alloy (Chromed)</td>
+                </tr>
+                <tr>
+                    <td><strong>Era</strong></td>
+                    <td>1965 (Vietnam War Era)</td>
+                </tr>
+                <tr>
+                    <td><strong>Condition</strong></td>
+                    <td>Museum Quality / Excellent</td>
+                </tr>
+                <tr>
+                    <td><strong>Functional Status</strong></td>
+                    <td>Operational</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Historical Context -->
+        <section>
+            <h2>Historical Context: The Dawn of a New Era in Army Aviation</h2>
+            <p>The Fort Wolters Primary Helicopter Training School in Texas was a critical institution for the U.S. Army from 1956 to 1973, responsible for training over 40,000 helicopter pilots during the Vietnam War era. A significant turning point occurred in 1965 with the introduction of the <strong>Hughes TH-55A Osage</strong> as the primary training helicopter, replacing earlier models. This transition marked a revolutionary advancement in helicopter training methodology, directly contributing to the rapid expansion of Army Aviation capabilities during a period of intense global conflict.</p>
+            <p style="margin-top: 15px;">This commemorative lighter was presented to a member of <strong>Class 65-9WA</strong>, the <em>first</em> graduating class to train exclusively on the TH-55A Osage. This makes the artifact exceptionally significant, as it symbolizes the beginning of a new chapter in Army aviation and the rigorous training undertaken by these pioneering aviators.</p>
+        </section>
+
+        <!-- Recipient and Provenance -->
+        <section>
+            <h2>Recipient and Verified Provenance</h2>
+            <p>The lighter is engraved to <strong>Warrant Officer Candidate Arthur P. Lancy Jr.</strong>, a participant in the Warrant Officer Candidate (WOC) program. This program was designed to train enlisted soldiers and junior officers to become Army aviators, culminating in their commissioning as Warrant Officers upon graduation. The personal engraving elevates the artifact beyond a generic military souvenir, connecting it directly to an individual's service and achievement.</p>
+            <p style="margin-top: 15px;">Crucially, WOC Lancy Jr.'s military service record has been thoroughly authenticated through official Army archives. Records confirm that he was awarded the <strong>Air Medal for meritorious achievement in aerial flight</strong> on April 3, 1967, while serving with Company B, 25th Aviation Battalion, 25th Infantry Division, during the Vietnam War. This documented service trajectory, from specialized training at Fort Wolters to combat distinction, provides an exceptionally compelling and verifiable historical narrative, enhancing the artifact's authenticity and value.</p>
+            <h3>Chain of Custody</h3>
+            <p>Original recipient (WOC Arthur P. Lancy Jr.) → Private collection → Current archive (Acquired November 15, 2024)</p>
+        </section>
+
+        <!-- Technical Specifications -->
+        <section>
+            <h2>Technical Specifications and Markings</h2>
+            <p>This vintage Park Brand Petrol Lighter features precise engravings that confirm its historical context:</p>
+            <div class="specs-grid">
+                <div class="spec-card">
+                    <div class="spec-label">Front Markings</div>
+                    <div class="spec-value">Class 65-9WA & Hughes World Leader logo</div>
+                </div>
+                <div class="spec-card">
+                    <div class="spec-label">Reverse Markings</div>
+                    <div class="spec-value">Presentation inscription to WOC Arthur P. Lancy Jr., Fort Wolters, Texas, 1965</div>
+                </div>
+                <div class="spec-card">
+                    <div class="spec-label">Manufacturer Marks</div>
+                    <div class="spec-value">Park Industries, Murfreesboro, Tennessee</div>
+                </div>
+                <div class="spec-card">
+                    <div class="spec-label">Engravings</div>
+                    <div class="spec-value">Period-accurate typography & depth (1960s production)</div>
+                </div>
+            </div>
+            <p style="margin-top: 20px;">The lighter bears authentic manufacturing marks from Park Industries, Murfreesboro, Tennessee, consistent with 1960s production standards. The engravings exhibit period-accurate typography and depth, confirming its contemporary manufacture and not a later reproduction.</p>
+        </section>
+
+        <!-- Valuation -->
+        <section>
+            <h2>Valuation and Rarity</h2>
+            <p>This 1965 Fort Wolters Commemorative Lighter is considered an <strong>investment-grade military collectible</strong> due to its confluence of historical significance, verified provenance, and exceptional rarity.</p>
+            <div class="value-highlight">
+                📊 Estimated Market Value: <strong>$895</strong>
+            </div>
+            <h3>Key Factors Contributing to Value</h3>
+            <ul style="margin-left: 20px; color: #555;">
+                <li><strong>Historical Rarity:</strong> Presentation lighters from the first graduating class of a new, pivotal military training program are exceptionally rare. Most military presentation pieces from this era were either lost, destroyed, or remain in private collections with limited documentation.</li>
+                <li><strong>Documented Combat Service:</strong> The direct link to WOC Arthur P. Lancy Jr. and his documented Air Medal for combat service significantly enhances its appeal to collectors of Vietnam War memorabilia and aviation history.</li>
+                <li><strong>Collector Appeal:</strong> The artifact attracts a broad spectrum of collectors, including military history enthusiasts, Vietnam War specialists, aviation memorabilia collectors, presentation piece collectors, and Fort Wolters historians.</li>
+                <li><strong>Appreciating Asset:</strong> Authenticated military presentation pieces with complete provenance consistently demonstrate appreciation in the collector market, particularly when tied to specific historical events and documented service records.</li>
+            </ul>
+        </section>
+
+        <!-- Visual Documentation -->
+        <section>
+            <h2>Visual Documentation</h2>
+            <p>High-resolution imagery is crucial for documenting and appreciating this artifact. Below are key visual elements that document the artifact and its historical context.</p>
+            
+            <h3>Artifact Views</h3>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="assets/images/lighter-4.jpg" alt="Front View - Class 65-9WA Inscription">
+                    <div class="gallery-item-caption">Front view of the lighter, showing the Class 65-9WA and Hughes World Leader logo</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/lighter-5.jpg" alt="Reverse Side - Presentation Inscription">
+                    <div class="gallery-item-caption">Reverse side of the lighter, with the presentation inscription to WOC Arthur P. Lancy Jr.</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/lighter-6.jpg" alt="Reverse Side Detail">
+                    <div class="gallery-item-caption">Detailed view of the reverse side inscription</div>
+                </div>
+            </div>
+
+            <h3>Supporting Historical Documentation</h3>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="assets/images/lighter-1.jpg" alt="Air Medal Documentation">
+                    <div class="gallery-item-caption">Documentation related to the Air Medal awarded to WOC Arthur P. Lancy Jr.</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/lighter-2.jpg" alt="Training Helicopter and Class Photo">
+                    <div class="gallery-item-caption">Historical photograph of the Hughes TH-55A Osage training helicopter and class photo</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/lighter-3.jpg" alt="Class 65-9 Roster">
+                    <div class="gallery-item-caption">Roster for Class 65-9, confirming WOC Arthur P. Lancy Jr.'s participation</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Historical Timeline -->
+        <section>
+            <h2>Historical Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-year">1956–1973</div>
+                    <h4>Fort Wolters Primary Helicopter Training School</h4>
+                    <p>Fort Wolters served as the U.S. Army's primary helicopter training facility, training over 40,000 helicopter pilots during its operational period. Located near Mineral Wells, Texas, the base played a crucial role in developing the Army's rotary-wing aviation capabilities during the Vietnam War era.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">1965</div>
+                    <h4>Hughes TH-55A Osage Introduction</h4>
+                    <p>The Hughes TH-55A Osage was introduced to Fort Wolters in 1965, replacing earlier training aircraft. This two-seat, piston-engine helicopter became the primary trainer for Army aviators, marking a significant transition in Army aviation training methodology.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">1965</div>
+                    <h4>Class 65-9WA Graduation</h4>
+                    <p>Class 65-9WA represents one of the first classes to complete training on the Hughes TH-55A Osage, making it a milestone in Army aviation training history. WOC Arthur P. Lancy Jr. was a member of this inaugural class.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">1965–1967</div>
+                    <h4>Vietnam War Service</h4>
+                    <p>Following his graduation from Fort Wolters, WOC Lancy Jr. deployed to Vietnam and served with Company B, 25th Aviation Battalion, 25th Infantry Division, demonstrating distinguished service in combat operations.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">April 3, 1967</div>
+                    <h4>Air Medal Award</h4>
+                    <p>WO Arthur P. Lancy Jr. was awarded the Air Medal for meritorious achievement in aerial flight, as documented in official 25th Infantry Division records. This honor reflects his exceptional service and courage during combat operations.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">November 15, 2024</div>
+                    <h4>Archive Acquisition</h4>
+                    <p>The 1965 Fort Wolters Commemorative Lighter was acquired from a private collection and added to the Fort Wolters Lighter Archive, ensuring its preservation and accessibility for future generations and collectors.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- References -->
+        <section>
+            <h2>References & Sources</h2>
+            <p>This comprehensive archive is based on verified historical records, military documentation, and authenticated artifact analysis:</p>
+            <ul style="margin-left: 20px; color: #555; margin-top: 15px;">
+                <li><strong>Fort Wolters Archive Repository:</strong> <a href="https://github.com/Mave9055/fort-wolters-lighter-archive" class="reference-link">GitHub Repository</a></li>
+                <li><strong>Artifact Registry:</strong> <a href="registry.json" class="reference-link">registry.json</a> - Complete metadata and provenance documentation</li>
+                <li><strong>Historical Context:</strong> U.S. Army Aviation Historical Records, Fort Wolters Primary Helicopter Training School Documentation</li>
+                <li><strong>Service Records:</strong> 25th Infantry Division "Tropic Lightning News" Records, April 3, 1967</li>
+                <li><strong>Artifact Authentication:</strong> Park Industries Manufacturing Records, Murfreesboro, Tennessee</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p><strong>1965 Fort Wolters Commemorative Lighter Archive</strong></p>
+        <p>Definitive Digital Archive | Reference ID: FW-ARC-0001 / ALJ-65-9WA-COA-001</p>
+        <p style="margin-top: 15px; font-size: 0.85em;">© 2024–2026 | Hosted on <a href="https://github.com/Mave9055/fort-wolters-lighter-archive">GitHub Pages</a></p>
+    </footer>
+</body>
+</html>
