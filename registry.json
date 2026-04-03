@@ -1,0 +1,35 @@
+{
+  "collection": "Fort Wolters Archive",
+  "version": "1.0.1",
+  "last_updated": "2026-04-02",
+  "total_artifacts": 1,
+  "artifacts": [
+    {
+      "id": "FW-ARC-0001",
+      "title": "Class 65-9WA Commemorative Lighter",
+      "description": "Presentation lighter commemorating WOC Arthur P. Lancy Jr., member of the first graduating class using the Hughes TH-55A helicopter at Fort Wolters Primary Helicopter Training School, 1965.",
+      "category": "Lighter",
+      "era": "1965",
+      "condition": "Good",
+      "acquisition_date": "2024-11-15",
+      "acquisition_source": "Private collection",
+      "provenance": "Presented to WOC Arthur P. Lancy Jr., Class 65-9WA, first graduating class to use the Hughes TH-55A helicopter at Fort Wolters, Texas",
+      "image_url": "assets/images/lighter-4.jpg",
+      "page_url": "lighters/fw-arc-0001.html",
+      "qr_code_url": "assets/qr/fw-arc-0001.png",
+      "hash": "a3f5e9c2b1d4f6a8e7c9b2d5f8a1c4e6",
+      "metadata": {
+        "manufacturer": "Park Industries (Murfreesboro, TN)",
+        "material": "Brushed metal alloy",
+        "class": "65-9WA",
+        "recipient": "WOC Arthur P. Lancy Jr.",
+        "aircraft": "Hughes TH-55A Helicopter",
+        "location": "Fort Wolters, Texas",
+        "year": "1965",
+        "markings": "Class 65-9WA, Hughes World Leader logo, presentation inscription",
+        "functional": true,
+        "historical_significance": "First graduating class to use the Hughes TH-55A helicopter"
+      }
+    }
+  ]
+}
