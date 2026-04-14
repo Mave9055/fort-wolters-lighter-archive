@@ -1,5 +1,10 @@
 # The 1965 Fort Wolters Commemorative Lighter: A Historical Artifact
 
+<p align="center">
+  <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663251514784/peyAAcfVglzoCzKU.png" alt="Capitol Contracts LLC Logo" width="300">
+</p>
+
+
 ## Executive Summary
 
 This document provides a comprehensive and factual overview of the 1965 Fort Wolters Commemorative Lighter, an authenticated artifact that encapsulates a pivotal moment in U.S. Army Aviation history. This unique presentation piece, originally belonging to Warrant Officer Candidate (WOC) Arthur P. Lancy Jr., serves as a tangible link to the inaugural class of helicopter pilots trained on the Hughes TH-55A Osage at Fort Wolters, Texas. Its verified provenance, historical significance, and exceptional condition position it as a highly valuable collectible.
