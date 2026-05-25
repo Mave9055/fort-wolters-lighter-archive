@@ -154,7 +154,7 @@
     .question-list li:before { content: counter(q); position: absolute; left: 0; top: 0; width: 26px; height: 26px; border-radius: 50%; background: #6e4d0d; color: var(--paper); display: grid; place-items: center; font-size: .85rem; font-weight: 800; }
     footer { padding: 34px 0 48px; color: #bfb5a7; }
     .foot { border-top: 1px solid rgba(216,183,96,.18); padding-top: 20px; display: flex; gap: 20px; flex-wrap: wrap; justify-content: space-between; }
-    @media (max-width: 900px) { .hero, .grid-2, .grid-3, .gallery { grid-template-columns: 1fr; } header { padding-top: 42px; } }
+    @media (max-width: 900px) { .hero, .grid-2, .grid-3, .gallery { grid-template-columns: 1fr; } header { padding-top: 42px; } .gallery figure { grid-column: auto !important; grid-row: auto !important; } }
     @media print {
       body { background: white; color: #111; }
       .topbar, .button-row, footer { display: none; }
@@ -262,15 +262,15 @@
       <div class="wrap">
         <div class="section-head">
           <h2>Visual Documentation</h2>
-          <p class="lead">These images are included for initial review. Full-resolution files can be provided on request.</p>
+          <p class="lead">Images are arranged by relationship for faster appraisal review: the helicopter/class context sits directly below the Park lighter image, and the roster sits directly below the class/group context. Full-resolution files can be provided on request.</p>
         </div>
         <div class="gallery">
-          <figure><img src="assets/images/lighter-4.jpg" alt="Front view of Fort Wolters lighter" /><figcaption>Front view: Class 65-9WA and Hughes marking.</figcaption></figure>
-          <figure><img src="assets/images/lighter-5.jpg" alt="Reverse view of Fort Wolters lighter" /><figcaption>Reverse view: named presentation inscription.</figcaption></figure>
-          <figure><img src="assets/images/lighter-6.jpg" alt="Close detail of reverse inscription" /><figcaption>Close detail of reverse inscription.</figcaption></figure>
-          <figure><img src="assets/images/lighter-1.jpg" alt="Supporting service documentation image" /><figcaption>Supporting service-related documentation image.</figcaption></figure>
-          <figure><img src="assets/images/lighter-2.jpg" alt="Training helicopter and class context" /><figcaption>Training helicopter and class-context image.</figcaption></figure>
-          <figure><img src="assets/images/lighter-3.jpg" alt="Roster-style documentation image" /><figcaption>Roster-style documentation image for class context.</figcaption></figure>
+          <figure style="grid-column:1;grid-row:1;"><img src="assets/images/lighter-4.jpg" alt="Front view of Fort Wolters lighter" /><figcaption>Park lighter front: Class 65-9WA and Hughes marking.</figcaption></figure>
+          <figure style="grid-column:1;grid-row:2;"><img src="assets/images/lighter-2.jpg" alt="Training helicopter and class photo context" /><figcaption>Helicopter / class photo context placed under the Park lighter image.</figcaption></figure>
+          <figure style="grid-column:1;grid-row:3;"><img src="assets/images/lighter-3.jpg" alt="Roster-style documentation image" /><figcaption>Roster documentation placed under the class/group photo context.</figcaption></figure>
+          <figure style="grid-column:2;grid-row:1;"><img src="assets/images/lighter-5.jpg" alt="Reverse view of Fort Wolters lighter" /><figcaption>Reverse view: named presentation inscription.</figcaption></figure>
+          <figure style="grid-column:2;grid-row:2;"><img src="assets/images/lighter-6.jpg" alt="Close detail of reverse inscription" /><figcaption>Close detail of reverse inscription.</figcaption></figure>
+          <figure style="grid-column:3;grid-row:1;"><img src="assets/images/lighter-1.jpg" alt="Supporting service documentation image" /><figcaption>Supporting service-related documentation image.</figcaption></figure>
         </div>
       </div>
     </section>
