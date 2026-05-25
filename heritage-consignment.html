@@ -11,156 +11,21 @@
   <meta property="og:type" content="website" />
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
   <style>
-    :root {
-      --black: #050505;
-      --paper: #f8f1df;
-      --ink: #181611;
-      --muted: #675f50;
-      --panel: rgba(255,255,255,.065);
-      --gold: #d8b760;
-      --gold-bright: #f1d47d;
-      --purple: #8e5cff;
-      --line: rgba(216,183,96,.32);
-      --white: #fbf6ea;
-    }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body {
-      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      color: var(--white);
-      background:
-        radial-gradient(circle at 10% 0%, rgba(216,183,96,.18), transparent 30%),
-        radial-gradient(circle at 88% 10%, rgba(142,92,255,.13), transparent 32%),
-        linear-gradient(135deg, #030303, #111113 52%, #050505);
-      line-height: 1.65;
-    }
-    a { color: var(--gold-bright); text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    img { display: block; max-width: 100%; }
-    .wrap { width: min(1180px, calc(100% - 36px)); margin: 0 auto; }
-    .topbar {
-      border-bottom: 1px solid var(--line);
-      background: rgba(0,0,0,.4);
-      color: var(--gold-bright);
-      padding: 10px 16px;
-      text-align: center;
-      font-weight: 800;
-      letter-spacing: .1em;
-      text-transform: uppercase;
-      font-size: .78rem;
-    }
-    header {
-      padding: 64px 0 44px;
-      border-bottom: 1px solid var(--line);
-    }
-    .hero {
-      display: grid;
-      grid-template-columns: 1.05fr .95fr;
-      gap: 42px;
-      align-items: center;
-    }
-    .eyebrow {
-      display: inline-block;
-      color: var(--gold-bright);
-      border: 1px solid var(--line);
-      border-radius: 999px;
-      background: rgba(216,183,96,.09);
-      padding: 8px 14px;
-      margin-bottom: 18px;
-      font-size: .78rem;
-      font-weight: 800;
-      letter-spacing: .12em;
-      text-transform: uppercase;
-    }
-    h1, h2, h3 { font-family: Cinzel, Georgia, serif; line-height: 1.08; }
-    h1 { font-size: clamp(2.2rem, 5.4vw, 5.15rem); margin-bottom: 18px; color: var(--white); }
-    h1 span, h2 { color: var(--gold-bright); }
-    .lead { font-size: 1.12rem; color: #e2d9c9; max-width: 800px; }
-    .hero-card {
-      border: 1px solid rgba(216,183,96,.36);
-      border-radius: 26px;
-      padding: 16px;
-      background: linear-gradient(145deg, rgba(216,183,96,.12), rgba(142,92,255,.08));
-      box-shadow: 0 24px 70px rgba(0,0,0,.46);
-    }
-    .hero-card img { border-radius: 18px; background: #070707; border: 1px solid rgba(255,255,255,.08); width: 100%; }
-    .caption { padding: 12px 4px 0; color: #bfb5a7; font-size: .92rem; }
-    .button-row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
-    .btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 48px;
-      padding: 12px 18px;
-      border-radius: 12px;
-      font-weight: 800;
-      text-transform: uppercase;
-      letter-spacing: .04em;
-      font-size: .84rem;
-      border: 1px solid var(--line);
-    }
-    .btn.primary { background: linear-gradient(135deg, var(--gold-bright), #b98a2e); color: #111; }
-    .btn.secondary { background: rgba(255,255,255,.055); color: var(--white); }
-    section { padding: 58px 0; border-bottom: 1px solid rgba(216,183,96,.14); }
-    .section-head { margin-bottom: 26px; max-width: 900px; }
-    h2 { font-size: clamp(1.75rem, 3.4vw, 3rem); margin-bottom: 12px; }
-    h3 { color: var(--gold-bright); font-size: 1.25rem; margin-bottom: 8px; }
-    .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px; }
-    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
-    .panel, .card {
-      border: 1px solid rgba(216,183,96,.24);
-      background: linear-gradient(145deg, rgba(255,255,255,.06), rgba(255,255,255,.025));
-      border-radius: 22px;
-      padding: 24px;
-      box-shadow: 0 18px 50px rgba(0,0,0,.28);
-    }
-    .card p, .panel p, li { color: #d7cebf; }
-    .tag {
-      display: inline-block;
-      color: var(--gold-bright);
-      border: 1px solid rgba(216,183,96,.26);
-      background: rgba(216,183,96,.08);
-      padding: 5px 10px;
-      border-radius: 999px;
-      font-size: .72rem;
-      text-transform: uppercase;
-      letter-spacing: .08em;
-      font-weight: 800;
-      margin-bottom: 12px;
-    }
-    table { width: 100%; border-collapse: collapse; overflow: hidden; border-radius: 16px; }
-    th, td { padding: 14px 16px; border-bottom: 1px solid rgba(216,183,96,.16); text-align: left; vertical-align: top; }
-    th { width: 34%; color: var(--gold-bright); background: rgba(216,183,96,.07); text-transform: uppercase; letter-spacing: .08em; font-size: .78rem; }
-    td { color: #e1d8c9; }
-    .gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
-    figure { border: 1px solid rgba(216,183,96,.22); border-radius: 18px; overflow: hidden; background: rgba(0,0,0,.35); }
-    figure img { width: 100%; aspect-ratio: 4/3; object-fit: contain; padding: 16px; background: radial-gradient(circle, rgba(255,255,255,.055), rgba(0,0,0,.45)); }
-    figcaption { color: #c7bdad; padding: 12px 14px 14px; font-size: .9rem; }
-    ul.clean { list-style: none; display: grid; gap: 12px; }
-    ul.clean li { position: relative; padding-left: 28px; }
-    ul.clean li:before { content: "◆"; position: absolute; left: 0; top: 0; color: var(--gold-bright); font-size: .85rem; }
-    .print-box {
-      background: var(--paper);
-      color: var(--ink);
-      border: 1px solid rgba(216,183,96,.42);
-      border-radius: 22px;
-      padding: 24px;
-    }
-    .print-box h2, .print-box h3 { color: #6e4d0d; }
-    .print-box p, .print-box li, .print-box td { color: var(--ink); }
-    .print-box th { color: #6e4d0d; background: rgba(216,183,96,.22); }
-    .question-list { counter-reset: q; display: grid; gap: 12px; }
-    .question-list li { list-style: none; counter-increment: q; padding-left: 42px; position: relative; }
-    .question-list li:before { content: counter(q); position: absolute; left: 0; top: 0; width: 26px; height: 26px; border-radius: 50%; background: #6e4d0d; color: var(--paper); display: grid; place-items: center; font-size: .85rem; font-weight: 800; }
-    footer { padding: 34px 0 48px; color: #bfb5a7; }
-    .foot { border-top: 1px solid rgba(216,183,96,.18); padding-top: 20px; display: flex; gap: 20px; flex-wrap: wrap; justify-content: space-between; }
-    @media (max-width: 900px) { .hero, .grid-2, .grid-3, .gallery { grid-template-columns: 1fr; } header { padding-top: 42px; } .gallery figure { grid-column: auto !important; grid-row: auto !important; } }
-    @media print {
-      body { background: white; color: #111; }
-      .topbar, .button-row, footer { display: none; }
-      section, header { border: 0; padding: 20px 0; }
-      .panel, .card, .hero-card, .print-box { box-shadow: none; }
-    }
+    :root{--paper:#f8f1df;--ink:#181611;--gold:#d8b760;--gold-bright:#f1d47d;--line:rgba(216,183,96,.32);--white:#fbf6ea;--muted:#c7bdad;}
+    *{box-sizing:border-box;margin:0;padding:0} html{scroll-behavior:smooth}
+    body{font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--white);background:radial-gradient(circle at 10% 0%,rgba(216,183,96,.18),transparent 30%),radial-gradient(circle at 88% 10%,rgba(142,92,255,.13),transparent 32%),linear-gradient(135deg,#030303,#111113 52%,#050505);line-height:1.65;}
+    a{color:var(--gold-bright);text-decoration:none} a:hover{text-decoration:underline} img{display:block;max-width:100%}.wrap{width:min(1180px,calc(100% - 36px));margin:0 auto}
+    .topbar{border-bottom:1px solid var(--line);background:rgba(0,0,0,.4);color:var(--gold-bright);padding:10px 16px;text-align:center;font-weight:800;letter-spacing:.1em;text-transform:uppercase;font-size:.78rem}
+    header{padding:64px 0 44px;border-bottom:1px solid var(--line)}.hero{display:grid;grid-template-columns:1.05fr .95fr;gap:42px;align-items:center}.eyebrow{display:inline-block;color:var(--gold-bright);border:1px solid var(--line);border-radius:999px;background:rgba(216,183,96,.09);padding:8px 14px;margin-bottom:18px;font-size:.78rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+    h1,h2,h3{font-family:Cinzel,Georgia,serif;line-height:1.08}h1{font-size:clamp(2.2rem,5.4vw,5.15rem);margin-bottom:18px;color:var(--white)}h1 span,h2,h3{color:var(--gold-bright)}.lead{font-size:1.12rem;color:#e2d9c9;max-width:900px}.hero-card,.panel,.card,.gallery figure{border:1px solid rgba(216,183,96,.24);background:linear-gradient(145deg,rgba(255,255,255,.06),rgba(255,255,255,.025));box-shadow:0 18px 50px rgba(0,0,0,.28)}
+    .hero-card{border-radius:26px;padding:16px}.hero-card img{border-radius:18px;background:#070707;border:1px solid rgba(255,255,255,.08);width:100%}.caption{padding:12px 4px 0;color:#bfb5a7;font-size:.92rem}.button-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 18px;border-radius:12px;font-weight:800;text-transform:uppercase;letter-spacing:.04em;font-size:.84rem;border:1px solid var(--line)}.btn.primary{background:linear-gradient(135deg,var(--gold-bright),#b98a2e);color:#111}.btn.secondary{background:rgba(255,255,255,.055);color:var(--white)}
+    section{padding:58px 0;border-bottom:1px solid rgba(216,183,96,.14)}.section-head{margin-bottom:26px;max-width:940px}h2{font-size:clamp(1.75rem,3.4vw,3rem);margin-bottom:12px}h3{font-size:1.25rem;margin-bottom:8px}.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.panel,.card{border-radius:22px;padding:24px}.card p,.panel p,li{color:#d7cebf}.tag{display:inline-block;color:var(--gold-bright);border:1px solid rgba(216,183,96,.26);background:rgba(216,183,96,.08);padding:5px 10px;border-radius:999px;font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:800;margin-bottom:12px}
+    table{width:100%;border-collapse:collapse;overflow:hidden;border-radius:16px}th,td{padding:14px 16px;border-bottom:1px solid rgba(216,183,96,.16);text-align:left;vertical-align:top}th{width:34%;color:var(--gold-bright);background:rgba(216,183,96,.07);text-transform:uppercase;letter-spacing:.08em;font-size:.78rem}td{color:#e1d8c9}
+    .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;align-items:start}.gallery figure{border-radius:18px;overflow:hidden;background:rgba(0,0,0,.35)}.gallery img{width:100%;aspect-ratio:4/3;object-fit:contain;padding:16px;background:radial-gradient(circle,rgba(255,255,255,.055),rgba(0,0,0,.45))}.gallery .wide img{aspect-ratio:5/3}.gallery .tall img{aspect-ratio:3/4}figcaption{color:var(--muted);padding:12px 14px 14px;font-size:.9rem}.col-stack{display:grid;gap:18px}
+    ul.clean{list-style:none;display:grid;gap:12px}ul.clean li{position:relative;padding-left:28px}ul.clean li:before{content:"◆";position:absolute;left:0;top:0;color:var(--gold-bright);font-size:.85rem}.print-box{background:var(--paper);color:var(--ink);border:1px solid rgba(216,183,96,.42);border-radius:22px;padding:24px}.print-box h2,.print-box h3{color:#6e4d0d}.print-box p,.print-box li,.print-box td{color:var(--ink)}.print-box th{color:#6e4d0d;background:rgba(216,183,96,.22)}.question-list{counter-reset:q;display:grid;gap:12px}.question-list li{list-style:none;counter-increment:q;padding-left:42px;position:relative}.question-list li:before{content:counter(q);position:absolute;left:0;top:0;width:26px;height:26px;border-radius:50%;background:#6e4d0d;color:var(--paper);display:grid;place-items:center;font-size:.85rem;font-weight:800}
+    footer{padding:34px 0 48px;color:#bfb5a7}.foot{border-top:1px solid rgba(216,183,96,.18);padding-top:20px;display:flex;gap:20px;flex-wrap:wrap;justify-content:space-between}
+    @media(max-width:900px){.hero,.grid-2,.grid-3,.gallery{grid-template-columns:1fr}header{padding-top:42px}.col-stack{display:grid}}
+    @media print{body{background:white;color:#111}.topbar,.button-row,footer{display:none}section,header{border:0;padding:20px 0}.panel,.card,.hero-card,.print-box,.gallery figure{box-shadow:none}}
   </style>
 </head>
 <body>
@@ -190,18 +55,16 @@
       <div class="wrap grid-2">
         <div class="panel">
           <h2>Executive Summary</h2>
-          <p>This 1965 Park Industries presentation lighter is engraved for WOC Arthur P. Lancy Jr. of Class 65-9WA at Fort Wolters, Texas. The front shows the Class 65-9WA designation and Hughes World Leader logo; the reverse is a named presentation inscription.</p>
-          <br />
-          <p>The potential auction appeal is provenance-driven: named recipient, specific Army Aviation training class, Fort Wolters location, Vietnam-era context, Hughes TH-55A training association, and available supporting documentation images.</p>
+          <p>This 1965 Park Industries presentation lighter is engraved for WOC Arthur P. Lancy Jr. of Class 65-9WA at Fort Wolters, Texas. The front shows the Class 65-9WA designation and Hughes World Leader logo; the reverse is a named presentation inscription.</p><br />
+          <p>The auction appeal is provenance-driven: named recipient, specific Army Aviation training class, Fort Wolters location, Vietnam-era context, Hughes TH-55A training association, and supporting documentation images.</p>
         </div>
         <div class="panel">
           <h2>Consignment Goal</h2>
-          <p>The consignor is requesting Heritage Auctions’ opinion on whether this item is suitable for a militaria, Americana, aviation, or historical artifact sale.</p>
-          <br />
+          <p>The consignor is requesting Heritage Auctions’ opinion on whether this item is suitable for a militaria, Americana, aviation, or historical artifact sale.</p><br />
           <ul class="clean">
             <li>Requested review: auction suitability and category placement.</li>
             <li>Requested estimate: realistic hammer range based on comparable buyer demand.</li>
-            <li>Requested terms: seller commission, fees, photography/catalog costs, reserve advice, shipping/insurance requirements.</li>
+            <li>Requested terms: seller commission, fees, reserve advice, shipping and insurance requirements.</li>
           </ul>
         </div>
       </div>
@@ -221,11 +84,9 @@
             <tr><th>Class / Unit Context</th><td>Fort Wolters Class 65-9WA</td></tr>
             <tr><th>Location</th><td>Fort Wolters, Texas</td></tr>
             <tr><th>Date / Era</th><td>1965 · Vietnam War buildup period</td></tr>
-            <tr><th>Manufacturer</th><td>Park Industries, Murfreesboro, Tennessee</td></tr>
-            <tr><th>Material</th><td>Brushed metal alloy / chromed finish</td></tr>
+            <tr><th>Manufacturer Mark</th><td>PARK Lighter / Made in U.S.A.</td></tr>
             <tr><th>Front Marking</th><td>Class 65-9WA and Hughes World Leader logo</td></tr>
             <tr><th>Reverse Marking</th><td>Presentation inscription to WOC Arthur P. Lancy Jr., Fort Wolters, Texas, 1965</td></tr>
-            <tr><th>Functional Status</th><td>Listed as functional in archive metadata</td></tr>
             <tr><th>Acquisition</th><td>Private collection; archive acquisition date listed as November 15, 2024</td></tr>
           </table>
         </div>
@@ -235,43 +96,31 @@
     <section>
       <div class="wrap">
         <div class="section-head">
-          <h2>Auction Relevance</h2>
-          <p class="lead">The item is small, but the provenance gives it cross-category relevance beyond standard lighter collecting.</p>
+          <h2>Visual Documentation</h2>
+          <p class="lead">Layout corrected per document relationship: the helicopter/class photo is now directly under the PARK Lighter base-stamp image, and the roster list is directly under the group photo image.</p>
         </div>
-        <div class="grid-3">
-          <div class="card">
-            <span class="tag">Militaria</span>
-            <h3>Vietnam-Era U.S. Army</h3>
-            <p>The object falls within Vietnam-era militaria and named presentation-piece collecting.</p>
+        <div class="gallery">
+          <div class="col-stack">
+            <figure><img src="assets/images/lighter-4.jpg" alt="Front view of Fort Wolters presentation lighter" /><figcaption>Front face: Class 65-9WA and Hughes World Leader marking.</figcaption></figure>
+            <figure><img src="assets/images/lighter-5.jpg" alt="Reverse inscription naming WOC Arthur P. Lancy Jr." /><figcaption>Reverse inscription: presented to WOC Arthur P. Lancy Jr., Fort Wolters, Texas, 1965.</figcaption></figure>
           </div>
-          <div class="card">
-            <span class="tag">Aviation</span>
-            <h3>Army Helicopter Training</h3>
-            <p>Fort Wolters and the Hughes TH-55A Osage training connection may appeal to Army Aviation collectors.</p>
+          <div class="col-stack">
+            <figure><img src="assets/images/lighter-6.jpg" alt="PARK Lighter Made in U.S.A. base stamp" /><figcaption>Base stamp: PARK Lighter / Made in U.S.A.</figcaption></figure>
+            <figure class="wide"><img src="assets/images/lighter-2.jpg" alt="Hughes TH-55A helicopter and Fort Wolters class group photo" /><figcaption>Helicopter and group/class photo context, placed directly under the PARK Lighter base stamp.</figcaption></figure>
+            <figure><img src="assets/images/lighter-3.jpg" alt="Class roster list including Lancy" /><figcaption>Roster list placed directly under the group photo; top row includes “Lancy,” and the bottom line reads Class 65-9 R/W.</figcaption></figure>
           </div>
-          <div class="card">
-            <span class="tag">Americana</span>
-            <h3>Named Service Artifact</h3>
-            <p>The named recipient and training-class context create a story-driven object rather than an anonymous souvenir.</p>
+          <div class="col-stack">
+            <figure><img src="assets/images/lighter-1.jpg" alt="Air Medal or service-related supporting documentation" /><figcaption>Supporting service-related documentation image.</figcaption></figure>
           </div>
         </div>
       </div>
     </section>
 
     <section>
-      <div class="wrap">
-        <div class="section-head">
-          <h2>Visual Documentation</h2>
-          <p class="lead">Images are arranged by relationship for faster appraisal review: the helicopter/class context sits directly below the Park lighter image, and the roster sits directly below the class/group context. Full-resolution files can be provided on request.</p>
-        </div>
-        <div class="gallery">
-          <figure style="grid-column:1;grid-row:1;"><img src="assets/images/lighter-4.jpg" alt="Front view of Fort Wolters lighter" /><figcaption>Park lighter front: Class 65-9WA and Hughes marking.</figcaption></figure>
-          <figure style="grid-column:1;grid-row:2;"><img src="assets/images/lighter-2.jpg" alt="Training helicopter and class photo context" /><figcaption>Helicopter / class photo context placed under the Park lighter image.</figcaption></figure>
-          <figure style="grid-column:1;grid-row:3;"><img src="assets/images/lighter-3.jpg" alt="Roster-style documentation image" /><figcaption>Roster documentation placed under the class/group photo context.</figcaption></figure>
-          <figure style="grid-column:2;grid-row:1;"><img src="assets/images/lighter-5.jpg" alt="Reverse view of Fort Wolters lighter" /><figcaption>Reverse view: named presentation inscription.</figcaption></figure>
-          <figure style="grid-column:2;grid-row:2;"><img src="assets/images/lighter-6.jpg" alt="Close detail of reverse inscription" /><figcaption>Close detail of reverse inscription.</figcaption></figure>
-          <figure style="grid-column:3;grid-row:1;"><img src="assets/images/lighter-1.jpg" alt="Supporting service documentation image" /><figcaption>Supporting service-related documentation image.</figcaption></figure>
-        </div>
+      <div class="wrap grid-3">
+        <div class="card"><span class="tag">Militaria</span><h3>Vietnam-Era U.S. Army</h3><p>The object falls within Vietnam-era militaria and named presentation-piece collecting.</p></div>
+        <div class="card"><span class="tag">Aviation</span><h3>Army Helicopter Training</h3><p>Fort Wolters and the Hughes TH-55A Osage training connection may appeal to Army Aviation collectors.</p></div>
+        <div class="card"><span class="tag">Americana</span><h3>Named Service Artifact</h3><p>The named recipient and training-class context create a story-driven object rather than an anonymous souvenir.</p></div>
       </div>
     </section>
 
@@ -279,20 +128,18 @@
       <div class="wrap grid-2">
         <div class="print-box">
           <h2>Documentation Position</h2>
-          <p>The consignor is presenting this as a documented, historically significant military aviation collectible. The strongest value argument is not the lighter brand alone; it is the named recipient and specific Fort Wolters / Class 65-9WA / Hughes training context.</p>
-          <br />
+          <p>The strongest value argument is not the lighter brand alone; it is the named recipient and specific Fort Wolters / Class 65-9WA / Hughes training context.</p><br />
           <ul class="clean">
             <li>Named recipient: WOC Arthur P. Lancy Jr.</li>
-            <li>Specific class marking: 65-9WA.</li>
+            <li>Specific class marking on lighter: 65-9WA.</li>
+            <li>Roster/class evidence shows Lancy and Class 65-9 R/W context.</li>
             <li>Fort Wolters, Texas, 1965 presentation context.</li>
             <li>Hughes World Leader marking associated with TH-55A training history.</li>
-            <li>Supporting visual documentation package available.</li>
           </ul>
         </div>
         <div class="print-box">
           <h2>Careful Claim Boundary</h2>
-          <p>This packet is intentionally written to separate documented artifact facts from auction-value interpretation. It does not claim independent third-party museum certification unless Heritage or another qualified reviewer confirms such status after inspection.</p>
-          <br />
+          <p>This packet separates documented artifact facts from auction-value interpretation. It does not claim independent third-party museum certification unless Heritage or another qualified reviewer confirms such status after inspection.</p><br />
           <p>Requested Heritage review should determine final catalog language, category placement, condition statement, and estimated auction range.</p>
         </div>
       </div>
@@ -315,31 +162,12 @@
 
     <section>
       <div class="wrap grid-2">
-        <div class="panel">
-          <h2>Consignor Contact</h2>
-          <p><strong>Daniel “Bret” Lingar</strong></p>
-          <p>Email: <a href="mailto:lingarb420@gmail.com">lingarb420@gmail.com</a></p>
-          <p>Artifact reference: FW-ARC-0001 / ALJ-65-9WA-COA-001</p>
-        </div>
-        <div class="panel">
-          <h2>Supporting Links</h2>
-          <ul class="clean">
-            <li><a href="index.html">Public collector sales page</a></li>
-            <li><a href="registry.json">Artifact registry metadata</a></li>
-            <li><a href="assets/images/lighter-4.jpg">Primary artifact image</a></li>
-            <li><a href="assets/images/lighter-5.jpg">Reverse inscription image</a></li>
-            <li><a href="assets/images/lighter-6.jpg">Reverse inscription detail image</a></li>
-          </ul>
-        </div>
+        <div class="panel"><h2>Consignor Contact</h2><p><strong>Daniel “Bret” Lingar</strong></p><p>Email: <a href="mailto:lingarb420@gmail.com">lingarb420@gmail.com</a></p><p>Artifact reference: FW-ARC-0001 / ALJ-65-9WA-COA-001</p></div>
+        <div class="panel"><h2>Supporting Links</h2><ul class="clean"><li><a href="index.html">Public collector sales page</a></li><li><a href="registry.json">Artifact registry metadata</a></li><li><a href="assets/images/lighter-4.jpg">Front marking image</a></li><li><a href="assets/images/lighter-5.jpg">Reverse inscription image</a></li><li><a href="assets/images/lighter-6.jpg">PARK Lighter base stamp image</a></li></ul></div>
       </div>
     </section>
   </main>
 
-  <footer>
-    <div class="wrap foot">
-      <div><strong>Heritage Auctions Consignment Evaluation Packet</strong><br />1965 Fort Wolters Class 65-9WA Presentation Lighter · Named to WOC Arthur P. Lancy Jr.</div>
-      <div>Prepared for auction review · Reference ID FW-ARC-0001</div>
-    </div>
-  </footer>
+  <footer><div class="wrap foot"><div><strong>Heritage Auctions Consignment Evaluation Packet</strong><br />1965 Fort Wolters Class 65-9WA Presentation Lighter · Named to WOC Arthur P. Lancy Jr.</div><div>Prepared for auction review · Reference ID FW-ARC-0001</div></div></footer>
 </body>
 </html>
