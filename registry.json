@@ -1,34 +1,57 @@
 {
   "collection": "Fort Wolters Archive",
-  "version": "1.0.1",
-  "last_updated": "2026-04-02",
+  "version": "1.0.2",
+  "last_updated": "2026-05-26",
   "total_artifacts": 1,
   "artifacts": [
     {
       "id": "FW-ARC-0001",
-      "title": "Class 65-9WA Commemorative Lighter",
-      "description": "Presentation lighter commemorating WOC Arthur P. Lancy Jr., member of the first graduating class using the Hughes TH-55A helicopter at Fort Wolters Primary Helicopter Training School, 1965.",
-      "category": "Lighter",
-      "era": "1965",
-      "condition": "Good",
+      "title": "Class 65-9WA Presentation Lighter",
+      "description": "Named 1965 Fort Wolters Class 65-9WA presentation lighter with external class and later-service context.",
+      "category": "Presentation lighter",
+      "date": "1965",
+      "condition_summary": "Exterior condition and mechanical movement described in the evidence packet; no current spark or operation claim is made.",
       "acquisition_date": "2024-11-15",
       "acquisition_source": "Private collection",
-      "provenance": "Presented to WOC Arthur P. Lancy Jr., Class 65-9WA, first graduating class to use the Hughes TH-55A helicopter at Fort Wolters, Texas",
       "image_url": "assets/images/lighter-4.jpg",
-      "page_url": "lighters/fw-arc-0001.html",
-      "qr_code_url": "assets/qr/fw-arc-0001.png",
-      "hash": "a3f5e9c2b1d4f6a8e7c9b2d5f8a1c4e6",
+      "evidence_packet_url": "heritage-consignment.html",
       "metadata": {
-        "manufacturer": "Park Industries (Murfreesboro, TN)",
-        "material": "Brushed metal alloy",
-        "class": "65-9WA",
-        "recipient": "WOC Arthur P. Lancy Jr.",
-        "aircraft": "Hughes TH-55A Helicopter",
-        "location": "Fort Wolters, Texas",
-        "year": "1965",
-        "markings": "Class 65-9WA, Hughes World Leader logo, presentation inscription",
-        "functional": true,
-        "historical_significance": "First graduating class to use the Hughes TH-55A helicopter"
+        "base_stamp": "PARK Lighter / Made in U.S.A.",
+        "class_marking": "65-9WA",
+        "recipient_inscription": "WOC Arthur P. Lancy Jr.",
+        "location_inscription": "Fort Wolters, Texas",
+        "year_inscription": "1965",
+        "front_markings": "Class 65-9WA and Hughes World Leader marking",
+        "current_spark_claim": false,
+        "operation_claim": "No operation claim; no flint installed and not cleaned, fueled, or serviced for operation.",
+        "historical_significance": "Named Fort Wolters presentation lighter with related VHPA class evidence and later Tropic Lightning News service-context evidence."
+      },
+      "evidence_categories": {
+        "physical_object_evidence": [
+          "Class 65-9WA marking",
+          "Hughes World Leader marking",
+          "Reverse inscription to WOC Arthur P. Lancy Jr.",
+          "Fort Wolters, Texas, 1965 inscription",
+          "PARK Lighter / Made in U.S.A. base stamp"
+        ],
+        "vhpa_class_evidence": [
+          "VHPA WOC Class Pictures Archive index",
+          "VHPA Class 65-9W photograph",
+          "VHPA Class 65-9W roster/name-list image with Lancy on the roster",
+          "Roster notation: CLASS 65-9 R/W"
+        ],
+        "later_service_evidence": [
+          "Tropic Lightning News, Vol. 2 No. 13, April 3, 1967",
+          "Page 2, Decorated section, Air Medal subsection",
+          "Lists WO Arthur P. Lancy, Co. B, 25th Avn. Bn."
+        ],
+        "claim_boundaries": [
+          "No claim that the lighter was carried in Vietnam",
+          "No claim that the lighter was used in combat",
+          "No claim that the Air Medal listing proves use or carry of this lighter",
+          "No claim that the A in 65-9WA means Alpha",
+          "No claim that Hughes marking proves official issue"
+        ]
       }
     }
   ]
