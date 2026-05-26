@@ -21,7 +21,7 @@
     .hero-card{border-radius:26px;padding:16px}.hero-card img{border-radius:18px;background:#070707;border:1px solid rgba(255,255,255,.08);width:100%}.caption{padding:12px 4px 0;color:#bfb5a7;font-size:.92rem}.button-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 18px;border-radius:12px;font-weight:800;text-transform:uppercase;letter-spacing:.04em;font-size:.84rem;border:1px solid var(--line)}.btn.primary{background:linear-gradient(135deg,var(--gold-bright),#b98a2e);color:#111}.btn.secondary{background:rgba(255,255,255,.055);color:var(--white)}
     section{padding:58px 0;border-bottom:1px solid rgba(216,183,96,.14)}.section-head{margin-bottom:26px;max-width:1040px}h2{font-size:clamp(1.75rem,3.4vw,3rem);margin-bottom:12px}h3{font-size:1.25rem;margin-bottom:8px}.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.panel,.card{border-radius:22px;padding:24px}.card p,.panel p,li{color:#d7cebf}.tag{display:inline-block;color:var(--gold-bright);border:1px solid rgba(216,183,96,.26);background:rgba(216,183,96,.08);padding:5px 10px;border-radius:999px;font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:800;margin-bottom:12px}
     table{width:100%;border-collapse:collapse;overflow:hidden;border-radius:16px}th,td{padding:14px 16px;border-bottom:1px solid rgba(216,183,96,.16);text-align:left;vertical-align:top}th{width:34%;color:var(--gold-bright);background:rgba(216,183,96,.07);text-transform:uppercase;letter-spacing:.08em;font-size:.78rem}td{color:#e1d8c9}
-    .gallery{display:grid;grid-template-columns:1.05fr 1.15fr 1.15fr;gap:24px;align-items:start}.col-stack{display:grid;gap:24px}.gallery figure{border-radius:22px;overflow:hidden;background:rgba(0,0,0,.35);transition:transform .28s ease,box-shadow .28s ease,border-color .28s ease;position:relative;z-index:1}.gallery figure:hover{transform:scale(1.08);box-shadow:0 28px 90px rgba(0,0,0,.62),0 0 0 1px rgba(241,212,125,.46);border-color:rgba(241,212,125,.66);z-index:20}.gallery img{width:100%;height:auto;object-fit:contain;padding:10px;background:radial-gradient(circle,rgba(255,255,255,.055),rgba(0,0,0,.45));transition:transform .32s ease}.gallery figure:hover img{transform:scale(1.04)}.photo-crop{width:100%;overflow:hidden;background:#050505}.photo-crop img{width:100%;height:100%;object-fit:cover;padding:0;max-width:none}.crop-helicopter{aspect-ratio:977/686}.crop-helicopter img{object-position:top center}.crop-group{aspect-ratio:977/581}.crop-group img{object-position:bottom center}.gallery .stamp img{aspect-ratio:970/352;object-fit:contain}.gallery .roster img{aspect-ratio:916/498;object-fit:contain}.gallery .large img{min-height:340px}figcaption{color:var(--muted);padding:13px 16px 16px;font-size:.94rem}
+    .gallery{display:grid;grid-template-columns:1.05fr 1.15fr 1.15fr;gap:24px;align-items:start}.col-stack{display:grid;gap:24px}.gallery figure{border-radius:22px;overflow:hidden;background:rgba(0,0,0,.35);transition:transform .28s ease,box-shadow .28s ease,border-color .28s ease;position:relative;z-index:1}.gallery figure:hover{transform:scale(1.08);box-shadow:0 28px 90px rgba(0,0,0,.62),0 0 0 1px rgba(241,212,125,.46);border-color:rgba(241,212,125,.66);z-index:20}.gallery img{width:100%;height:auto;object-fit:contain;padding:10px;background:radial-gradient(circle,rgba(255,255,255,.055),rgba(0,0,0,.45));transition:transform .32s ease}.gallery figure:hover img{transform:scale(1.04)}.gallery .stamp img{aspect-ratio:970/352;object-fit:contain}.gallery .roster img{aspect-ratio:916/498;object-fit:contain}.gallery .large img{min-height:340px}.gallery .split img{padding:0;background:#050505}figcaption{color:var(--muted);padding:13px 16px 16px;font-size:.94rem}
     ul.clean{list-style:none;display:grid;gap:12px}ul.clean li{position:relative;padding-left:28px}ul.clean li:before{content:"◆";position:absolute;left:0;top:0;color:var(--gold-bright);font-size:.85rem}.print-box{background:var(--paper);color:var(--ink);border:1px solid rgba(216,183,96,.42);border-radius:22px;padding:24px}.print-box h2,.print-box h3{color:#6e4d0d}.print-box p,.print-box li,.print-box td{color:var(--ink)}.print-box th{color:#6e4d0d;background:rgba(216,183,96,.22)}.question-list{counter-reset:q;display:grid;gap:12px}.question-list li{list-style:none;counter-increment:q;padding-left:42px;position:relative}.question-list li:before{content:counter(q);position:absolute;left:0;top:0;width:26px;height:26px;border-radius:50%;background:#6e4d0d;color:var(--paper);display:grid;place-items:center;font-size:.85rem;font-weight:800}
     footer{padding:34px 0 48px;color:#bfb5a7}.foot{border-top:1px solid rgba(216,183,96,.18);padding-top:20px;display:flex;gap:20px;flex-wrap:wrap;justify-content:space-between}
     @media(max-width:1000px){.hero,.grid-2,.grid-3,.gallery{grid-template-columns:1fr}header{padding-top:42px}.col-stack{display:grid}.gallery figure:hover{transform:scale(1.02)}}
@@ -97,7 +97,7 @@
       <div class="wrap wide">
         <div class="section-head">
           <h2>Visual Documentation</h2>
-          <p class="lead">The helicopter and group photo are now separated. Hover over any image to enlarge it. The PARK stamp anchors the helicopter, and the group photo anchors the roster list beneath it.</p>
+          <p class="lead">The helicopter and group photo are now separated into their own image files. Hover over any image to enlarge it.</p>
         </div>
         <div class="gallery">
           <div class="col-stack">
@@ -106,16 +106,10 @@
           </div>
           <div class="col-stack">
             <figure class="stamp"><img src="assets/images/lighter-6.jpg" alt="PARK Lighter Made in U.S.A. base stamp" /><figcaption>Base stamp: PARK Lighter / Made in U.S.A.</figcaption></figure>
-            <figure>
-              <div class="photo-crop crop-helicopter"><img src="assets/images/lighter-2.jpg" alt="Hughes TH-55A helicopter" /></div>
-              <figcaption>Separated helicopter image, placed directly under the PARK Lighter base stamp.</figcaption>
-            </figure>
+            <figure class="split"><img src="assets/images/helicopter-only.svg?v=2" alt="Separated Hughes TH-55A helicopter image" /><figcaption>Separated helicopter image, placed directly under the PARK Lighter base stamp.</figcaption></figure>
           </div>
           <div class="col-stack">
-            <figure>
-              <div class="photo-crop crop-group"><img src="assets/images/lighter-2.jpg" alt="Fort Wolters class group photo" /></div>
-              <figcaption>Separated Fort Wolters group/class photo.</figcaption>
-            </figure>
+            <figure class="split"><img src="assets/images/group-photo-only.svg?v=2" alt="Separated Fort Wolters class group photo" /><figcaption>Separated Fort Wolters group/class photo.</figcaption></figure>
             <figure class="roster"><img src="assets/images/lighter-3.jpg" alt="Class roster list including Lancy" /><figcaption>Roster list placed directly under the group photo; top row includes “Lancy,” and the bottom line reads Class 65-9 R/W.</figcaption></figure>
             <figure><img src="assets/images/lighter-1.jpg" alt="Air Medal or service-related supporting documentation" /><figcaption>Supporting service-related documentation image.</figcaption></figure>
           </div>
@@ -170,7 +164,7 @@
     <section>
       <div class="wrap grid-2">
         <div class="panel"><h2>Consignor Contact</h2><p><strong>Daniel “Bret” Lingar</strong></p><p>Email: <a href="mailto:lingarb420@gmail.com">lingarb420@gmail.com</a></p><p>Artifact reference: FW-ARC-0001 / ALJ-65-9WA-COA-001</p></div>
-        <div class="panel"><h2>Supporting Links</h2><ul class="clean"><li><a href="index.html">Public collector sales page</a></li><li><a href="registry.json">Artifact registry metadata</a></li><li><a href="assets/images/lighter-4.jpg">Front marking image</a></li><li><a href="assets/images/lighter-5.jpg">Reverse inscription image</a></li><li><a href="assets/images/lighter-6.jpg">PARK Lighter base stamp image</a></li></ul></div>
+        <div class="panel"><h2>Supporting Links</h2><ul class="clean"><li><a href="index.html">Public collector sales page</a></li><li><a href="registry.json">Artifact registry metadata</a></li><li><a href="assets/images/lighter-4.jpg">Front marking image</a></li><li><a href="assets/images/lighter-5.jpg">Reverse inscription image</a></li><li><a href="assets/images/lighter-6.jpg">PARK Lighter base stamp image</a></li><li><a href="assets/images/helicopter-only.svg?v=2">Separated helicopter image</a></li><li><a href="assets/images/group-photo-only.svg?v=2">Separated group photo image</a></li></ul></div>
       </div>
     </section>
   </main>
