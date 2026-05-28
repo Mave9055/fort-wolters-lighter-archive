@@ -26,7 +26,11 @@ Hello,
 
 I am requesting a consignment evaluation for a 1965 Fort Wolters Class 65-9WA presentation lighter named to Warrant Officer Candidate Arthur P. Lancy Jr.
 
-The lighter is engraved on the front with the Class 65-9WA marking and Hughes World Leader marking. The reverse inscription names WOC Arthur P. Lancy Jr. and includes Fort Wolters, Texas, 1965. The base stamp reads PARK Lighter / Made in U.S.A.
+The front bears the Class 65-9WA marking and Hughes World Leader marking. The reverse inscription reads:
+
+“PRESENTED TO / WOC Arthur P. Lancy, Jr. / MEMBER, FIRST GRADUATING CLASS / USING / HUGHES TH-55A HELICOPTER / U.S. ARMY / PRIMARY HELICOPTER TRAINING SCHOOL / FORT WOLTERS, TEXAS / 1965.”
+
+The base stamp reads PARK Lighter / Made in U.S.A. The packet presents the “first graduating class using Hughes TH-55A helicopter” language as inscription evidence from the object itself and leaves independent historical verification and final catalog wording to your specialist review.
 
 I prepared an online evidence packet with photographs, external source links, condition notes, and claim-boundary language here:
 
@@ -43,15 +47,17 @@ lingarb420@gmail.com
 
 ## Attachments / Upload Checklist
 
-If the auction form allows uploads, include these files from `assets/images/`:
+If the auction form allows uploads, include clear photos of:
 
-1. `lighter-4.jpg` - front view / Class 65-9WA and Hughes marking
-2. `lighter-5.jpg` - reverse named inscription
-3. `lighter-6.jpg` - inscription/base-stamp detail, if applicable
-4. `lighter-2.jpg` - class/helicopter context image used in the packet
-5. `lighter-3.jpg` - roster/name-list documentation image
-6. `lighter-1.jpg` - supporting later-service documentation image
+1. Full reverse inscription
+2. Front Class 65-9WA / Hughes World Leader marking
+3. Front wide view
+4. Reverse inscription detail
+5. Hughes marking detail
+6. VHPA class photograph reference
+7. VHPA roster/name-list reference
+8. Tropic Lightning News Air Medal listing reference
 
 ## Claim Boundary
 
-Use careful language. The packet does not claim that the lighter was carried in Vietnam, used in combat, officially issued by Hughes, or manufactured by any company beyond the base-stamp wording visible in the object photographs. It also does not set a seller value or asking price.
+Use careful language. The packet does not claim that the lighter was carried in Vietnam, used in combat, officially issued by Hughes, or manufactured by any company beyond the base-stamp wording visible in the object photographs. It also does not set a seller value or asking price. The TH-55A “first graduating class” language should be presented as the lighter’s inscription unless independently verified by the appraiser or additional Army aviation records.
