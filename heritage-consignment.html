@@ -16,7 +16,7 @@
         a { color: var(--gold); }
         header, section { border-bottom: 1px solid rgba(241,212,125,.14); }
         header { padding: 56px 0 36px; }
-        .hero { display: grid; grid-template-columns: 1.05fr .95fr; gap: 34px; align-items: center; }
+        .hero { text-align: center; max-width: 900px; margin: 0 auto 44px; }
         .eyebrow { display: inline-block; border: 1px solid var(--line); border-radius: 999px; padding: 7px 12px; color: var(--gold); font-weight: 800; font-size: .76rem; letter-spacing: .1em; text-transform: uppercase; margin-bottom: 14px; }
         h1, h2, h3 { font-family: Georgia, serif; line-height: 1.08; color: var(--gold); }
         h1 { font-size: clamp(2.1rem, 5vw, 4.7rem); color: var(--white); margin: 0 0 16px; }
@@ -59,14 +59,17 @@
 </head>
 <body>
 <header>
-  <div class="wrap hero">
-    <div>
+  <div class="wrap">
+    <div class="hero">
       <div class="eyebrow">Auction / appraiser evidence packet</div>
       <h1>1965 Fort Wolters Class 65-9WA Presentation Lighter <span>Named to WOC Arthur P. Lancy Jr.</span></h1>
       <p class="lead">This packet is built for appraiser review. The strongest object evidence is the reverse inscription, which states that Lancy was a member of the first graduating class using the Hughes TH-55A helicopter at the U.S. Army Primary Helicopter Training School, Fort Wolters, Texas.</p>
-      <div class="button-row"><a class="btn primary" href="#source-index">External sources</a><a class="btn secondary" href="#photos">Photos</a><a class="btn secondary" href="#contact">Contact</a></div>
+      <div class="button-row" style="justify-content: center;"><a class="btn primary" href="#source-index">External sources</a><a class="btn secondary" href="#photos">Photos</a><a class="btn secondary" href="#contact">Contact</a></div>
     </div>
-    <figure class="hero-card"><img src="assets/images/lighter-4.jpg" alt="Full obverse view of the Fort Wolters Class 65-9WA presentation lighter showing the Hughes insignia" /><figcaption><span class="fig-title">Obverse — primary lot presentation</span>Class 65-9WA and Hughes World Leader marking.</figcaption></figure>
+    <div class="grid-2">
+      <figure class="hero-card"><img src="assets/images/lighter-4.jpg" alt="Full obverse view of the Fort Wolters Class 65-9WA presentation lighter showing the Hughes insignia" /><figcaption><span class="fig-title">Obverse — primary lot presentation</span>Class 65-9WA and Hughes World Leader marking.</figcaption></figure>
+      <figure class="hero-card"><img src="assets/images/lighter-5.jpg" alt="Full reverse view showing the presentation inscription" /><figcaption><span class="fig-title">Reverse — critical evidence</span>Presentation inscription including TH-55A language.</figcaption></figure>
+    </div>
   </div>
 </header>
 <main>
