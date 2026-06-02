@@ -1,0 +1,112 @@
+{
+  "archive_name": "Fort Wolters Class 65-9WA Research Archive",
+  "focus": "Company B, 25th Aviation Battalion (mid-1966 through mid-1967)",
+  "primary_artifact": "FW-ARC-0001",
+  "version": "1.0.0",
+  "last_updated": "2026-06-02",
+  "units": [
+    {
+      "id": "unit-25avn-b",
+      "name": "25th Aviation Battalion",
+      "company": "Company B",
+      "designation": "Co. B, 25th Avn. Bn.",
+      "service_period": "mid-1966 through mid-1967",
+      "location": "Vietnam (Cu Chi, Iron Triangle)",
+      "description": "Company B, 25th Aviation Battalion served in Vietnam from mid-1966 through mid-1967. The unit operated in the Cu Chi and Iron Triangle region, conducting support and transport operations. Multiple pilots from Company B earned Air Medals for their service during this period.",
+      "notable_personnel": [
+        {
+          "name": "Arthur P. Lancy Jr.",
+          "rank_at_training": "WOC (Warrant Officer Candidate)",
+          "rank_at_service": "WO (Warrant Officer)",
+          "training_class": "Class 65-9W",
+          "training_year": 1965,
+          "training_location": "Fort Wolters, Texas",
+          "service_unit": "Co. B, 25th Avn. Bn.",
+          "awards": ["Air Medal"],
+          "award_source": "Tropic Lightning News, Vol. 2 No. 13, April 3, 1967"
+        }
+      ]
+    }
+  ],
+  "training_classes": [
+    {
+      "id": "class-65-9w",
+      "class_number": "65-9W",
+      "class_variant": "65-9 R/W",
+      "year": 1965,
+      "location": "Fort Wolters, Texas",
+      "aircraft": "Hughes TH-55A Osage",
+      "significance": "Class 65-9W was among the first full classes to utilize the Hughes TH-55A Osage as the Army's primary trainer at Fort Wolters. This class represents the 'dawn of the Osage era' in Army Aviation training.",
+      "vhpa_sources": {
+        "class_photo_url": "https://www.vhpa.org/wocpics/65-9w.jpg",
+        "roster_url": "https://www.vhpa.org/wocpics/65-9wnames.jpg",
+        "archive_index": "https://www.vhpa.org/wocpics/classpics.htm"
+      },
+      "notable_graduates": [
+        {
+          "name": "Arthur P. Lancy Jr.",
+          "status": "WOC",
+          "roster_position": "Top row, 7th from left",
+          "later_service": "Co. B, 25th Avn. Bn., Vietnam"
+        }
+      ]
+    }
+  ],
+  "historical_context": {
+    "hughes_th55a_adoption": {
+      "year_adopted": 1964,
+      "significance": "Marked a major transition in Army Aviation primary training from fixed-wing to rotary-wing aircraft",
+      "class_65_9w_role": "Among the first full classes to train on the Osage at Fort Wolters"
+    },
+    "25th_aviation_battalion": {
+      "deployment_date": "April 30, 1966",
+      "service_region": "Cu Chi, Iron Triangle, Vietnam",
+      "service_end": "mid-1967",
+      "operations": "Support and transport operations",
+      "awards": "Multiple Air Medal recipients"
+    }
+  },
+  "source_verification": {
+    "vhpa_class_photo": {
+      "url": "https://www.vhpa.org/wocpics/65-9w.jpg",
+      "organization": "Vietnam Helicopter Pilots Association",
+      "status": "Verified external source"
+    },
+    "vhpa_roster": {
+      "url": "https://www.vhpa.org/wocpics/65-9wnames.jpg",
+      "organization": "Vietnam Helicopter Pilots Association",
+      "includes": "Lancy surname, Class 65-9 R/W notation",
+      "status": "Verified external source"
+    },
+    "tropic_lightning_news": {
+      "publication": "Tropic Lightning News",
+      "volume": "Vol. 2",
+      "issue": "No. 13",
+      "date": "April 3, 1967",
+      "page": 2,
+      "section": "Decorated",
+      "subsection": "Air Medal",
+      "entry": "WO Arthur P. Lancy, Co. B, 25th Avn. Bn.",
+      "url": "https://www.25thida.org/TLN/tln2-13.htm",
+      "organization": "25th Infantry Division Association",
+      "status": "Verified external source"
+    }
+  },
+  "artifact_connections": {
+    "FW-ARC-0001": {
+      "artifact_id": "FW-ARC-0001",
+      "artifact_title": "Class 65-9WA Presentation Lighter",
+      "recipient": "WOC Arthur P. Lancy Jr.",
+      "class_connection": "Class 65-9W / 65-9WA",
+      "unit_connection": "Co. B, 25th Avn. Bn.",
+      "training_significance": "Named recipient of presentation lighter commemorating first graduating class using Hughes TH-55A Osage",
+      "service_significance": "Recipient later earned Air Medal in Co. B, 25th Avn. Bn., Vietnam"
+    }
+  },
+  "research_notes": {
+    "scope": "This archive focuses exclusively on Company B, 25th Aviation Battalion during its service period of mid-1966 through mid-1967.",
+    "primary_artifact": "The Class 65-9WA presentation lighter named to WOC Arthur P. Lancy Jr. serves as the centerpiece artifact connecting Fort Wolters training to Vietnam service.",
+    "data_integrity": "All claims are tied to verified external sources (VHPA, Tropic Lightning News, 25th Infantry Division Association).",
+    "limitations": "The Tropic Lightning News citation establishes later service context only and does not prove the lighter was carried or used during Vietnam service."
+  }
+}
