@@ -10,11 +10,11 @@ Artifact Reference: **FW-ARC-0001**
 
 Evidence packet:
 
-https://mave9055.github.io/fort-wolters-lighter-archive/heritage-consignment.html
+https://daniel-lingar.github.io/fort-wolters/heritage-consignment.html
 
 Fallback GitHub file link:
 
-https://github.com/Mave9055/fort-wolters-lighter-archive/blob/main/heritage-consignment.html
+https://github.com/daniel-lingar/fort-wolters/blob/main/heritage-consignment.html
 
 ## Email Subject
 
@@ -34,7 +34,7 @@ The base stamp reads PARK Lighter / Made in U.S.A. The packet presents the “fi
 
 I prepared an online evidence packet with photographs, external source links, condition notes, and claim-boundary language here:
 
-https://mave9055.github.io/fort-wolters-lighter-archive/heritage-consignment.html
+https://daniel-lingar.github.io/fort-wolters/heritage-consignment.html
 
 The packet separates physical object evidence, VHPA class evidence, and later service-context evidence. I would appreciate your review of whether this item fits one of your militaria, aviation, Americana, or historical memorabilia categories.
 
