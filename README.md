@@ -4,7 +4,7 @@ This repository hosts a neutral evidence archive for Reference ID FW-ARC-0001.
 
 Primary review page:
 
-https://mave9055.github.io/fort-wolters-lighter-archive/heritage-consignment.html
+https://daniel-lingar.github.io/fort-wolters/heritage-consignment.html
 
 ## Summary
 
