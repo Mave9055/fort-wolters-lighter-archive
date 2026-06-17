@@ -2,9 +2,21 @@
 
 This repository hosts a neutral evidence archive for Reference ID FW-ARC-0001.
 
-Primary review page:
+Archive home:
+
+https://daniel-lingar.github.io/fort-wolters/
+
+Primary evidence packet:
 
 https://daniel-lingar.github.io/fort-wolters/heritage-consignment.html
+
+Full photo archive (34 images):
+
+https://daniel-lingar.github.io/fort-wolters/photo-gallery.html
+
+Research archive:
+
+https://daniel-lingar.github.io/fort-wolters/archive-index.html
 
 ## Summary
 
