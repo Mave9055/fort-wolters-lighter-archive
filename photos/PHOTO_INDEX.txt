@@ -1,128 +1,183 @@
 Fort Wolters Presentation Lighter — Photo Collection
 Compiled: 2026-06-16
-Unique images: 26
+Updated: 2026-06-21
+Archive images in gallery: 34
+Unique source files: 26 (+ 8 PDF extractions)
 ============================================================
 
+GALLERY ORDER (matches photo-archive.html):
+
 1. air_medal.jpg
+   Caption: Reference image of the U.S. Air Medal with full-size ribbon and matching service ribbon bar; supporting context for later service-record research only.
    Source: C:\Users\linga\lighter-sales-landing-page\air_medal.jpg
    Size: 64,417 bytes
 
 2. air_medal_illustration.jpg
+   Caption: Illustrated reference image of the U.S. Air Medal and ribbon bar; visual aid for award identification, not object provenance.
    Source: C:\Users\linga\lighter-sales-landing-page\air_medal_illustration.jpg
    Size: 73,204 bytes
 
 3. class_group_photo.jpg
+   Caption: VHPA class group photograph of Fort Wolters Class 65-9W trainees in summer uniforms, posed outdoors on bleachers; supporting evidence for training-class context.
    Source: C:\Users\linga\lighter-sales-landing-page\class_group_photo.jpg
    Size: 178,435 bytes
 
 4. class_roster_handwritten.jpg
+   Caption: Handwritten VHPA class roster listing Class 65-9 WA members by row, including Lancy in the top row; supporting evidence for recipient placement.
    Source: C:\Users\linga\lighter-sales-landing-page\class_roster_handwritten.jpg
    Size: 68,503 bytes
 
 5. helicopter_th55a.jpg
+   Caption: Reference image of Hughes TH-55A Osage (serial 67-16969) in U.S. Army orange-and-gray trainer markings; aircraft type named on the lighter inscription.
    Source: C:\Users\linga\lighter-sales-landing-page\helicopter_th55a.jpg
    Size: 810,898 bytes
 
-6. lighter-1.jpg
-   Source: C:\Users\linga\Downloads\lighter-1.jpg
-   Size: 254,865 bytes
+6. lighter pics_p1_img1.jpeg
+   Caption: Extracted archive image: reference photograph of the U.S. Air Medal with ribbon and service ribbon bar; supporting award-context material.
+   Source: PDF extraction (lighter pics)
 
-7. lighter-13.jpg
-   Source: C:\Users\linga\Downloads\lighter-13.jpg
-   Size: 2,039,200 bytes
+7. lighter pics_p1_img2.png
+   Caption: Extracted archive image: Tropic Lightning News, Page 2 (April 3, 1967), listing Air Medal recipients including WO Arthur P. Lancy, Co. B, 25th Avn. Bn.; service-context evidence only.
+   Source: PDF extraction (lighter pics)
 
-8. lighter-15.jpg
-   Source: C:\Users\linga\Downloads\lighter-15.jpg
-   Size: 2,130,815 bytes
+8. lighter pics_p2_img1.jpeg
+   Caption: Extracted archive image: reference photograph of Hughes TH-55A Osage (serial 67-16969) on outdoor display; primary trainer type cited on the lighter.
+   Source: PDF extraction (lighter pics)
 
-9. lighter-16.jpg
-   Source: C:\Users\linga\Downloads\lighter-16.jpg
-   Size: 1,858,721 bytes
+9. lighter pics_p2_img2.jpeg
+   Caption: Extracted archive image: group portrait of uniformed trainees posed on outdoor bleachers; Fort Wolters training-class context photograph.
+   Source: PDF extraction (lighter pics)
 
-10. lighter-2.jpg
-   Source: C:\Users\linga\Downloads\lighter-2.jpg
-   Size: 637,958 bytes
+10. lighter pics_p3_img1.jpeg
+    Caption: Extracted archive image: handwritten Class 65-9 WA roster on notebook paper, listing members by row with Lancy in the top row; VHPA supporting evidence.
+    Source: PDF extraction (lighter pics)
 
-11. lighter-3.jpg
-   Source: C:\Users\linga\Downloads\lighter-3.jpg
-   Size: 166,330 bytes
+11. lighter pics_p4_img1.jpeg
+    Caption: Extracted archive image: obverse view of presentation lighter showing Class 65-9WA marking and Hughes World Leader helicopter insignia.
+    Source: PDF extraction (lighter pics)
 
-12. lighter-4.jpg
-   Source: C:\Users\linga\Downloads\lighter-4.jpg
-   Size: 476,897 bytes
+12. lighter pics_p5_img1.jpeg
+    Caption: Extracted archive image: reverse inscription panel naming WOC Arthur P. Lancy Jr. and identifying the lighter as a presentation piece for the first graduating class using the Hughes TH-55A helicopter at Fort Wolters, 1965.
+    Source: PDF extraction (lighter pics)
 
-13. lighter-5.jpg
-   Source: C:\Users\linga\Downloads\lighter-5.jpg
-   Size: 500,811 bytes
+13. lighter pics_p6_img1.jpeg
+    Caption: Extracted archive image: bottom/base stamp reading PARK Lighter, MADE IN U.S.A.; manufacturer marking on the presentation lighter.
+    Source: PDF extraction (lighter pics)
 
-14. lighter-6.jpg
-   Source: C:\Users\linga\Downloads\lighter-6.jpg
-   Size: 139,298 bytes
+14. lighter-1.jpg
+    Caption: Composite reference image pairing Air Medal illustration with Tropic Lightning News award listings (Page 2, April 3, 1967); supporting service-context evidence only.
+    Source: C:\Users\linga\Downloads\lighter-1.jpg
+    Size: 254,865 bytes
 
-15. lighter_back.jpg
-   Source: C:\Users\linga\lighter-sales-landing-page\lighter_back.jpg
-   Size: 589,769 bytes
+15. lighter-13.jpg
+    Caption: Close-up of chrome lighter panel stamped PARK Lighter, MADE IN U.S.A.; manufacturer marking supporting object identification.
+    Source: C:\Users\linga\Downloads\lighter-13.jpg
+    Size: 2,039,200 bytes
 
-16. lighter_bottom.jpg
-   Source: C:\Users\linga\lighter-sales-landing-page\lighter_bottom.jpg
-   Size: 281,234 bytes
+16. lighter-15.jpg
+    Caption: Alternate obverse view of presentation lighter showing Class 65-9WA text and Hughes World Leader insignia with visible hinge and striker area.
+    Source: C:\Users\linga\Downloads\lighter-15.jpg
+    Size: 2,130,815 bytes
 
-17. lighter_collector_final_from_originals.jpg
-   Source: C:\Users\linga\lighter-sales-landing-page\lighter_collector_final_from_originals.jpg
-   Size: 540,468 bytes
+17. lighter-16.jpg
+    Caption: Reverse inscription panel with lid open, showing full presentation text to WOC Arthur P. Lancy Jr.; flint striker wheel and chimney mechanism visible at top.
+    Source: C:\Users\linga\Downloads\lighter-16.jpg
+    Size: 1,858,721 bytes
 
-18. lighter_front.jpg
-   Source: C:\Users\linga\lighter-sales-landing-page\lighter_front.jpg
-   Size: 578,373 bytes
+18. lighter-2.jpg
+    Caption: Composite context image: Hughes TH-55A trainer reference (upper) and Fort Wolters-era class group portrait on bleachers (lower).
+    Source: C:\Users\linga\Downloads\lighter-2.jpg
+    Size: 637,958 bytes
 
-19. lighter_image-1.jpg
-   Source: C:\Users\linga\lighter-sales-landing-page\lighter_image-1.jpg
-   Size: 516,428 bytes
+19. lighter-3.jpg
+    Caption: Handwritten Class 65-9 RW roster listing trainees by row, including Lancy in the top row; VHPA archive supporting evidence.
+    Source: C:\Users\linga\Downloads\lighter-3.jpg
+    Size: 166,330 bytes
 
-20. lighter_image-3.jpg
-   Source: C:\Users\linga\lighter-sales-landing-page\lighter_image-3.jpg
-   Size: 261,253 bytes
+20. lighter-4.jpg
+    Caption: Obverse view of presentation lighter showing Class 65-9WA marking and Hughes World Leader helicopter logo insignia.
+    Source: C:\Users\linga\Downloads\lighter-4.jpg
+    Size: 476,897 bytes
 
-21. Logo_end_of_trail_lighter.jpg
-   Source: C:\Users\linga\Downloads\Logo_end_of_trail_lighter.jpg
-   Size: 81,553 bytes
+21. lighter-5.jpg
+    Caption: Reverse inscription panel naming WOC Arthur P. Lancy Jr. and citing the first graduating class using the Hughes TH-55A at Fort Wolters Primary Helicopter Training School, 1965.
+    Source: C:\Users\linga\Downloads\lighter-5.jpg
+    Size: 500,811 bytes
+
+22. lighter-6.jpg
+    Caption: Top-panel view showing PARK Lighter, MADE IN U.S.A. brand marking on the presentation lighter case.
+    Source: C:\Users\linga\Downloads\lighter-6.jpg
+    Size: 139,298 bytes
+
+23. lighter_back.jpg
+    Caption: Reverse inscription panel with full commemorative text presented to WOC Arthur P. Lancy Jr., Fort Wolters, 1965.
+    Source: C:\Users\linga\lighter-sales-landing-page\lighter_back.jpg
+    Size: 589,769 bytes
+
+24. lighter_bottom.jpg
+    Caption: Bottom/base stamp on cream enamel panel: PARK Lighter, MADE IN U.S.A.; Park Industries manufacturer marking.
+    Source: C:\Users\linga\lighter-sales-landing-page\lighter_bottom.jpg
+    Size: 281,234 bytes
+
+25. lighter_collector_final_from_originals.jpg
+    Caption: Obverse view of the Class 65-9WA presentation lighter showing Hughes World Leader insignia; collector documentation composite from original photographs.
+    Source: C:\Users\linga\lighter-sales-landing-page\lighter_collector_final_from_originals.jpg
+    Size: 540,468 bytes
+
+26. lighter_front.jpg
+    Caption: Obverse/front view of presentation lighter engraved Class 65-9WA above the circular Hughes World Leader helicopter emblem.
+    Source: C:\Users\linga\lighter-sales-landing-page\lighter_front.jpg
+    Size: 578,373 bytes
+
+27. lighter_image-1.jpg
+    Caption: Reference image of Hughes TH-55A Osage (tail marking GT-10666) on display; aircraft type named in the lighter inscription.
+    Source: C:\Users\linga\lighter-sales-landing-page\lighter_image-1.jpg
+    Size: 516,428 bytes
+
+28. lighter_image-3.jpg
+    Caption: Handwritten Class 65-9 WA roster on aged paper, listing class members by row; alternate scan of VHPA name-list supporting evidence.
+    Source: C:\Users\linga\lighter-sales-landing-page\lighter_image-3.jpg
+    Size: 261,253 bytes
+
+29. Logo_end_of_trail_lighter.jpg
+    Caption: Archive image showing the classic End of the Trail rider-and-horse illustration; further identification pending.
+    Source: C:\Users\linga\Downloads\Logo_end_of_trail_lighter.jpg
+    Size: 81,553 bytes
+
+30. pic_2.jpg
+    Caption: Reverse inscription panel on presentation lighter naming WOC Arthur P. Lancy Jr. and Fort Wolters TH-55A graduating-class text, 1965.
+    Source: C:\Users\linga\lighter-sales-landing-page\pic_2.jpg
+    Size: 566,520 bytes
+
+31. pic_3.jpg
+    Caption: Close-up of top panel held in hand, showing PARK Lighter, MADE IN U.S.A. manufacturer marking.
+    Source: C:\Users\linga\lighter-sales-landing-page\pic_3.jpg
+    Size: 251,853 bytes
+
+32. pic_7.jpg
+    Caption: Composite context image: TH-55A helicopter in low flight (upper) and class group portrait on bleachers (lower); training-era reference material.
+    Source: C:\Users\linga\lighter-sales-landing-page\pic_7.jpg
+    Size: 588,829 bytes
+
+33. pic_7_combined.jpg
+    Caption: Composite archive image pairing Class 65-9 WA group photograph with handwritten row-by-row roster including Lancy; VHPA supporting evidence.
+    Source: C:\Users\linga\lighter-sales-landing-page\pic_7_combined.jpg
+    Size: 264,367 bytes
+
+34. pic_8.png
+    Caption: Handwritten Class 65-9 WA roster on lined notebook paper; supporting evidence for Arthur P. Lancy Jr. placement in the graduating class.
+    Source: C:\Users\linga\lighter-sales-landing-page\pic_8.png
+    Size: 259,915 bytes
+
+============================================================
+
+SKIPPED DUPLICATES (not in gallery):
 
    [SKIP duplicate] pic_1.jpg
    Same as: lighter_collector_final_from_originals.jpg
-
-22. pic_2.jpg
-   Source: C:\Users\linga\lighter-sales-landing-page\pic_2.jpg
-   Size: 566,520 bytes
-
-23. pic_3.jpg
-   Source: C:\Users\linga\lighter-sales-landing-page\pic_3.jpg
-   Size: 251,853 bytes
-
-24. pic_7.jpg
-   Source: C:\Users\linga\lighter-sales-landing-page\pic_7.jpg
-   Size: 588,829 bytes
-
-25. pic_7_combined.jpg
-   Source: C:\Users\linga\lighter-sales-landing-page\pic_7_combined.jpg
-   Size: 264,367 bytes
 
    [SKIP duplicate] pic_7_group_only.jpg
    Same as: class_group_photo.jpg
 
    [SKIP duplicate] pic_7_helicopter_only.jpg
    Same as: helicopter_th55a.jpg
-
-26. pic_8.png
-   Source: C:\Users\linga\lighter-sales-landing-page\pic_8.png
-   Size: 259,915 bytes
-
-
-EXTRACTED FROM PDFs:
-  + lighter pics_p1_img1.jpeg
-  + lighter pics_p1_img2.png
-  + lighter pics_p2_img1.jpeg
-  + lighter pics_p2_img2.jpeg
-  + lighter pics_p3_img1.jpeg
-  + lighter pics_p4_img1.jpeg
-  + lighter pics_p5_img1.jpeg
-  + lighter pics_p6_img1.jpeg
