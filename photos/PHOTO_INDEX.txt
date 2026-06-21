@@ -1,7 +1,7 @@
 Fort Wolters Presentation Lighter — Photo Collection
 Compiled: 2026-06-16
 Updated: 2026-06-21
-Archive images in gallery: 34
+Archive images in gallery: 33
 Unique source files: 26 (+ 8 PDF extractions)
 ============================================================
 
@@ -139,32 +139,27 @@ GALLERY ORDER (matches photo-archive.html):
     Source: C:\Users\linga\lighter-sales-landing-page\lighter_image-3.jpg
     Size: 261,253 bytes
 
-29. Logo_end_of_trail_lighter.jpg
-    Caption: Archive image showing the classic End of the Trail rider-and-horse illustration; further identification pending.
-    Source: C:\Users\linga\Downloads\Logo_end_of_trail_lighter.jpg
-    Size: 81,553 bytes
-
-30. pic_2.jpg
+29. pic_2.jpg
     Caption: Reverse inscription panel on presentation lighter naming WOC Arthur P. Lancy Jr. and Fort Wolters TH-55A graduating-class text, 1965.
     Source: C:\Users\linga\lighter-sales-landing-page\pic_2.jpg
     Size: 566,520 bytes
 
-31. pic_3.jpg
+30. pic_3.jpg
     Caption: Close-up of top panel held in hand, showing PARK Lighter, MADE IN U.S.A. manufacturer marking.
     Source: C:\Users\linga\lighter-sales-landing-page\pic_3.jpg
     Size: 251,853 bytes
 
-32. pic_7.jpg
+31. pic_7.jpg
     Caption: Composite context image: TH-55A helicopter in low flight (upper) and class group portrait on bleachers (lower); training-era reference material.
     Source: C:\Users\linga\lighter-sales-landing-page\pic_7.jpg
     Size: 588,829 bytes
 
-33. pic_7_combined.jpg
+32. pic_7_combined.jpg
     Caption: Composite archive image pairing Class 65-9 WA group photograph with handwritten row-by-row roster including Lancy; VHPA supporting evidence.
     Source: C:\Users\linga\lighter-sales-landing-page\pic_7_combined.jpg
     Size: 264,367 bytes
 
-34. pic_8.png
+33. pic_8.png
     Caption: Handwritten Class 65-9 WA roster on lined notebook paper; supporting evidence for Arthur P. Lancy Jr. placement in the graduating class.
     Source: C:\Users\linga\lighter-sales-landing-page\pic_8.png
     Size: 259,915 bytes
