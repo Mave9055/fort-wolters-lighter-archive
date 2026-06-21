@@ -43,7 +43,7 @@ Please determine appropriate catalog language, condition statement, category pla
 Thank you,
 
 Daniel Bret Lingar  
-lingarb420@gmail.com
+lingardaniel1@gmail.com
 
 ## Attachments / Upload Checklist
 
