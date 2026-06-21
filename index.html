@@ -49,6 +49,7 @@
   .photo-category { margin-bottom: 32px; }
   .photo-category h3 { font-size: 1rem; text-transform: uppercase; letter-spacing: .08em; color: var(--gold); margin: 0 0 14px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 800; }
   .photo-category .category-note { color: var(--muted); font-size: .88rem; margin: -6px 0 14px; }
+  .gallery figure.combined-photo { grid-column: 1 / -1; max-width: 520px; }
   .site-nav { padding: 0 0 28px; border-bottom: 1px solid rgba(241,212,125,.14); margin-bottom: 8px; }
   .sources { display: grid; gap: 12px; }
   .source-item { display: flex; gap: 14px; align-items: flex-start; padding: 14px 16px; border: 1px solid rgba(241,212,125,.16); border-radius: 12px; background: rgba(255,255,255,.03); }
@@ -182,8 +183,7 @@
       <h3>B. Context Photos</h3>
       <p class="category-note">Supporting evidence — separated from the object itself.</p>
       <div class="gallery">
-        <figure onclick="openLightbox('assets/images/class-65-9w-group-photo.png')"><img src="assets/images/class-65-9w-group-photo.png" alt="VHPA Fort Wolters Class 65-9W group photograph" loading="lazy" /><figcaption><span class="fig-title">Class photo</span>VHPA class group photograph for Fort Wolters Class 65-9W; supporting evidence for training-class context.</figcaption></figure>
-        <figure onclick="openLightbox('assets/images/class-roster.jpg')"><img src="assets/images/class-roster.jpg" alt="VHPA handwritten Class 65-9W roster" loading="lazy" /><figcaption><span class="fig-title">Roster</span>VHPA handwritten roster listing Class 65-9W members by row, including Lancy; supporting evidence for recipient placement.</figcaption></figure>
+        <figure class="combined-photo" onclick="openLightbox('assets/images/class-65-9w-group-photo-with-roster.jpg')"><img src="assets/images/class-65-9w-group-photo-with-roster.jpg" alt="VHPA Class 65-9W group photograph with handwritten name roster below" loading="lazy" /><figcaption><span class="fig-title">Class photo &amp; roster</span>VHPA class group photograph with handwritten name roster directly below; supporting evidence for Class 65-9W placement, including Lancy in the top row.</figcaption></figure>
         <figure onclick="openLightbox('assets/images/th55a-helicopter-reference.png')"><img src="assets/images/th55a-helicopter-reference.png" alt="Reference image of Hughes TH-55A Osage helicopter" loading="lazy" /><figcaption><span class="fig-title">TH-55A</span>Reference image of the Hughes TH-55A Osage, the primary helicopter trainer named in the lighter inscription.</figcaption></figure>
       </div>
     </div>
