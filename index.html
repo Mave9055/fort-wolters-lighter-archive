@@ -46,6 +46,10 @@
   .gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
   .gallery figure { margin: 0; border: 1px solid var(--line); border-radius: 14px; padding: 10px; background: rgba(255,255,255,.03); cursor: zoom-in; transition: border-color .25s; }
   .gallery figure:hover { border-color: var(--gold); }
+  .photo-category { margin-bottom: 32px; }
+  .photo-category h3 { font-size: 1rem; text-transform: uppercase; letter-spacing: .08em; color: var(--gold); margin: 0 0 14px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 800; }
+  .photo-category .category-note { color: var(--muted); font-size: .88rem; margin: -6px 0 14px; }
+  .site-nav { padding: 0 0 28px; border-bottom: 1px solid rgba(241,212,125,.14); margin-bottom: 8px; }
   .sources { display: grid; gap: 12px; }
   .source-item { display: flex; gap: 14px; align-items: flex-start; padding: 14px 16px; border: 1px solid rgba(241,212,125,.16); border-radius: 12px; background: rgba(255,255,255,.03); }
   .source-num { flex-shrink: 0; width: 28px; height: 28px; border-radius: 50%; background: rgba(241,212,125,.12); color: var(--gold); font-weight: 800; font-size: .8rem; display: flex; align-items: center; justify-content: center; }
@@ -88,9 +92,14 @@
       <div class="eyebrow">Archive ID FW-ARC-0001</div>
       <h1>1965 Fort Wolters Presentation Lighter<span>Named to WOC Arthur P. Lancy Jr.</span></h1>
       <p class="lead">A period-engraved slim presentation lighter from Class 65-9WA — among the first Army Aviation classes to train on the Hughes TH-55A Osage at Fort Wolters, Texas.</p>
+      <div class="button-row site-nav">
+        <a class="btn primary" href="index.html">General Presentation</a>
+        <a class="btn secondary" href="heritage-consignment.html">Auction / Appraiser Packet</a>
+        <a class="btn secondary" href="photo-gallery.html">Full Photo Archive</a>
+      </div>
       <div class="button-row">
         <a class="btn primary" href="mailto:itslingardaniel1@gmail.com?subject=Inquiry%3A%201965%20Fort%20Wolters%20Presentation%20Lighter%20(FW-ARC-0001)">Inquire Privately</a>
-        <a class="btn secondary" href="#gallery">View Gallery</a>
+        <a class="btn secondary" href="#photos">Selected Photos</a>
         <a class="btn secondary" href="#inscription">Inscription</a>
       </div>
     </div>
@@ -146,32 +155,42 @@
         </div>
       </div>
       <div class="evidence-link">
-        <a href="heritage-consignment.html">View Full Evidence Packet →</a>
-        <span style="color:var(--muted); font-size:.82rem;"> — authentication tables, separated source images, and appraiser documentation</span>
+        <a href="heritage-consignment.html">Auction / Appraiser Packet →</a>
+        <span style="color:var(--muted); font-size:.82rem;"> — curated object documentation, evidence tables, and separated source images</span>
       </div>
     </div>
   </div>
 </section>
 
-<section id="gallery">
+<section id="photos">
   <div class="wrap">
-    <h2>Photographic Documentation</h2>
-    <p class="lead" style="margin-bottom:24px;">Artifact angles, mechanical details, and separated archival context. Click any image to expand.</p>
-    <div class="gallery">
-      <figure onclick="openLightbox('assets/images/lighter-4.jpg')"><img src="assets/images/lighter-4.jpg" alt="Obverse view showing Class 65-9WA and Hughes World Leader insignia" loading="lazy" /><figcaption><span class="fig-title">Obverse</span>Class marking and Hughes logo</figcaption></figure>
-      <figure onclick="openLightbox('assets/images/lighter-5.jpg')"><img src="assets/images/lighter-5.jpg" alt="Reverse inscription panel naming WOC Arthur P. Lancy Jr." loading="lazy" /><figcaption><span class="fig-title">Reverse</span>Full presentation inscription</figcaption></figure>
-      <figure onclick="openLightbox('assets/images/lighter-16.jpg')"><img src="assets/images/lighter-16.jpg" alt="Reverse inscription with lid open; flint striker wheel and chimney visible" loading="lazy" /><figcaption><span class="fig-title">Striker &amp; reverse</span>Lid open showing mechanism and inscription</figcaption></figure>
-      <figure onclick="openLightbox('assets/images/lighter-15.jpg')"><img src="assets/images/lighter-15.jpg" alt="Alternate obverse view with Class 65-9WA and Hughes logo; hinge edge visible" loading="lazy" /><figcaption><span class="fig-title">Obverse alternate</span>Three-quarter view with hinge edge</figcaption></figure>
-      <figure onclick="openLightbox('assets/images/lighter-6.jpg')"><img src="assets/images/lighter-6.jpg" alt="Bottom base stamp reading PARK Lighter MADE IN U.S.A." loading="lazy" /><figcaption><span class="fig-title">Base stamp</span>PARK Lighter, MADE IN U.S.A.</figcaption></figure>
-      <figure onclick="openLightbox('assets/images/class-65-9w-group-photo.png')"><img src="assets/images/class-65-9w-group-photo.png" alt="Fort Wolters Class 65-9W group photograph, 1965" loading="lazy" /><figcaption><span class="fig-title">Class photo</span>VHPA Class 65-9W, 1965</figcaption></figure>
-      <figure onclick="openLightbox('assets/images/th55a-helicopter-reference.png')"><img src="assets/images/th55a-helicopter-reference.png" alt="Hughes TH-55A Osage helicopter reference" loading="lazy" /><figcaption><span class="fig-title">TH-55A</span>Primary trainer aircraft</figcaption></figure>
-      <figure onclick="openLightbox('assets/images/class-roster.jpg')"><img src="assets/images/class-roster.jpg" alt="VHPA Class 65-9W handwritten roster" loading="lazy" /><figcaption><span class="fig-title">Roster</span>VHPA name list</figcaption></figure>
-      <figure onclick="openLightbox('assets/images/tropic-lightning-news-1967-04-03.png')"><img src="assets/images/tropic-lightning-news-1967-04-03.png" alt="Tropic Lightning News Page 2 April 3 1967 listing WO Arthur P. Lancy Air Medal" loading="lazy" /><figcaption><span class="fig-title">TLN document</span>Air Medal listing, April 3, 1967</figcaption></figure>
-      <figure onclick="openLightbox('assets/images/air-medal-reference.jpg')"><img src="assets/images/air-medal-reference.jpg" alt="Illustrated reference image of the U.S. Air Medal" loading="lazy" /><figcaption><span class="fig-title">Air Medal</span>Award illustration reference</figcaption></figure>
-      <figure onclick="openLightbox('assets/images/th55a-blueprint.jpg')"><img src="assets/images/th55a-blueprint.jpg" alt="TH-55A technical blueprint reference" loading="lazy" /><figcaption><span class="fig-title">Blueprint</span>TH-55A design reference</figcaption></figure>
+    <h2>Selected Object &amp; Context Photos</h2>
+    <p class="lead" style="margin-bottom:28px;">Curated presentation images only. Object photographs come first; historical context images are labeled as supporting evidence. Additional angles, duplicates, and research scans remain in the <a href="photo-gallery.html">full photo archive</a>.</p>
+
+    <div class="photo-category">
+      <h3>A. Object Photos</h3>
+      <p class="category-note">The presentation lighter — primary artifact evidence.</p>
+      <div class="gallery">
+        <figure onclick="openLightbox('assets/images/lighter-4.jpg')"><img src="assets/images/lighter-4.jpg" alt="Obverse front view showing Class 65-9WA marking and Hughes World Leader helicopter insignia" loading="lazy" /><figcaption><span class="fig-title">Obverse</span>Front view showing Class 65-9WA marking and Hughes World Leader helicopter insignia; primary object identification.</figcaption></figure>
+        <figure onclick="openLightbox('assets/images/lighter-5.jpg')"><img src="assets/images/lighter-5.jpg" alt="Reverse inscription panel naming WOC Arthur P. Lancy Jr." loading="lazy" /><figcaption><span class="fig-title">Reverse</span>Full commemorative inscription naming WOC Arthur P. Lancy Jr. and citing Fort Wolters TH-55A graduating-class text, 1965.</figcaption></figure>
+        <figure onclick="openLightbox('assets/images/lighter-16.jpg')"><img src="assets/images/lighter-16.jpg" alt="Lid-open view showing reverse inscription with flint striker wheel and chimney mechanism" loading="lazy" /><figcaption><span class="fig-title">Mechanism</span>Lid-open view showing reverse inscription with flint striker wheel and chimney mechanism visible.</figcaption></figure>
+        <figure onclick="openLightbox('assets/images/lighter-13.jpg')"><img src="assets/images/lighter-13.jpg" alt="Manufacturer marking PARK Lighter MADE IN U.S.A." loading="lazy" /><figcaption><span class="fig-title">Maker stamp</span>Manufacturer marking showing PARK Lighter / MADE IN U.S.A. on the lighter body.</figcaption></figure>
+      </div>
     </div>
-    <div class="evidence-link" style="margin-top:28px;">
-      <a href="photo-gallery.html">Browse all 34 images in the full photo archive →</a>
+
+    <div class="photo-category">
+      <h3>B. Context Photos</h3>
+      <p class="category-note">Supporting evidence — separated from the object itself.</p>
+      <div class="gallery">
+        <figure onclick="openLightbox('assets/images/class-65-9w-group-photo.png')"><img src="assets/images/class-65-9w-group-photo.png" alt="VHPA Fort Wolters Class 65-9W group photograph" loading="lazy" /><figcaption><span class="fig-title">Class photo</span>VHPA class group photograph for Fort Wolters Class 65-9W; supporting evidence for training-class context.</figcaption></figure>
+        <figure onclick="openLightbox('assets/images/class-roster.jpg')"><img src="assets/images/class-roster.jpg" alt="VHPA handwritten Class 65-9W roster" loading="lazy" /><figcaption><span class="fig-title">Roster</span>VHPA handwritten roster listing Class 65-9W members by row, including Lancy; supporting evidence for recipient placement.</figcaption></figure>
+        <figure onclick="openLightbox('assets/images/th55a-helicopter-reference.png')"><img src="assets/images/th55a-helicopter-reference.png" alt="Reference image of Hughes TH-55A Osage helicopter" loading="lazy" /><figcaption><span class="fig-title">TH-55A</span>Reference image of the Hughes TH-55A Osage, the primary helicopter trainer named in the lighter inscription.</figcaption></figure>
+      </div>
+    </div>
+
+    <div class="evidence-link" style="margin-top:12px;">
+      <a href="photo-gallery.html">Full photo archive (34 images) →</a>
+      <span style="color:var(--muted); font-size:.82rem;"> · duplicates, PDF extractions, and research scans</span>
     </div>
   </div>
 </section>
@@ -206,7 +225,7 @@
     <p>This artifact is available to serious collectors, institutions, and qualified appraisers. Complete documentation package available upon request.</p>
     <div class="button-row">
       <a class="btn primary" href="mailto:itslingardaniel1@gmail.com?subject=Inquiry%3A%201965%20Fort%20Wolters%20Presentation%20Lighter%20(FW-ARC-0001)">itslingardaniel1@gmail.com</a>
-      <a class="btn secondary" href="heritage-consignment.html">Full Evidence Packet</a>
+      <a class="btn secondary" href="heritage-consignment.html">Auction / Appraiser Packet</a>
     </div>
   </div>
 </section>
@@ -216,8 +235,9 @@
 <footer>
   <div class="wrap">
     Reference ID: FW-ARC-0001 · Fort Wolters Class 65-9WA Research Archive · June 2026<br>
-    <a href="heritage-consignment.html">Evidence packet</a> ·
-    <a href="photo-gallery.html">Photo archive</a> ·
+    <a href="index.html">General presentation</a> ·
+    <a href="heritage-consignment.html">Auction / appraiser packet</a> ·
+    <a href="photo-gallery.html">Full photo archive</a> ·
     <a href="archive-index.html">Research archive</a> ·
     <a href="https://github.com/daniel-lingar/fort-wolters">GitHub</a>
   </div>
