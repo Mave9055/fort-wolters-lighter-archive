@@ -10,6 +10,10 @@ Full evidence packet (appraiser documentation):
 
 https://daniel-lingar.github.io/fort-wolters/heritage-consignment.html
 
+Print-ready Markdown appraiser packet:
+
+[AUCTION_APPRAISER_EVIDENCE_PACKET.md](AUCTION_APPRAISER_EVIDENCE_PACKET.md)
+
 Full photo archive (33 images):
 
 https://daniel-lingar.github.io/fort-wolters/photo-gallery.html

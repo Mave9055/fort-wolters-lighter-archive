@@ -1,5 +1,7 @@
 # Auction Submission Packet
 
+**Full print-ready appraiser packet (Markdown):** [AUCTION_APPRAISER_EVIDENCE_PACKET.md](AUCTION_APPRAISER_EVIDENCE_PACKET.md)
+
 ## Item
 
 **1965 Fort Wolters Class 65-9WA Presentation Lighter**  
