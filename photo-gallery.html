@@ -3,73 +3,98 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Fort Wolters Lighter — Full Photo Archive</title>
-<meta name="description" content="Complete photographic archive for FW-ARC-0001 — 1965 Fort Wolters Class 65-9WA presentation lighter and supporting context images." />
+<title>Fort Wolters Lighter — Photo Gallery</title>
+<meta name="description" content="Live photo gallery for FW-ARC-0001 — 1965 Fort Wolters Class 65-9WA presentation lighter and selected supporting context images." />
 <style>
-  :root { --bg:#050505; --gold:#f1d47d; --line:rgba(241,212,125,.30); --white:#fbf6ea; --muted:#cfc5b5; }
+  :root { --bg:#050505; --gold:#f1d47d; --gold2:#b98a2e; --line:rgba(241,212,125,.30); --white:#fbf6ea; --muted:#cfc5b5; }
   * { box-sizing: border-box; }
-  body { margin: 0; background: var(--bg); color: var(--white); font-family: Georgia, serif; line-height: 1.5; }
-  header { padding: 28px 24px 18px; border-bottom: 1px solid rgba(241,212,125,.14); }
-  header h1 { margin: 0 0 8px; color: var(--gold); font-size: 1.8rem; }
-  header p, nav { color: var(--muted); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: .92rem; }
-  nav { padding: 12px 24px 20px; display: flex; flex-wrap: wrap; gap: 12px 18px; border-bottom: 1px solid rgba(241,212,125,.14); }
-  nav a { color: var(--gold); text-decoration: none; font-weight: 700; }
-  .wrap { padding: 24px; }
-  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
-  .card { background: #141414; border: 1px solid #333; border-radius: 10px; padding: 12px; }
-  .card img { width: 100%; height: auto; border-radius: 6px; display: block; background: #080808; cursor: zoom-in; }
-  .card p { font-size: .78rem; color: var(--muted); margin: 8px 0 0; word-break: break-word; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.45; }
+  body { margin: 0; background: radial-gradient(circle at 12% 0%, rgba(142,92,255,.16), transparent 28%), radial-gradient(circle at 90% 8%, rgba(241,212,125,.15), transparent 30%), linear-gradient(180deg, var(--bg) 0%, #0a0a0d 100%); color: var(--white); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.6; }
+  a { color: var(--gold); }
+  header { padding: 36px 24px 22px; border-bottom: 1px solid rgba(241,212,125,.14); text-align: center; }
+  header h1 { margin: 0 0 10px; color: var(--gold); font-family: Georgia, serif; font-size: clamp(1.8rem, 5vw, 3rem); line-height: 1.1; }
+  header p, nav { color: var(--muted); font-size: .94rem; }
+  nav { padding: 14px 24px 22px; display: flex; flex-wrap: wrap; gap: 12px 18px; justify-content: center; border-bottom: 1px solid rgba(241,212,125,.14); }
+  nav a { color: var(--gold); text-decoration: none; font-weight: 800; }
+  .wrap { width: min(1100px, calc(100% - 32px)); margin: auto; padding: 28px 0 42px; }
+  .note { color: var(--muted); max-width: 760px; margin: 0 auto 26px; text-align: center; }
+  .category { margin-bottom: 34px; }
+  .category h2 { margin: 0 0 10px; color: var(--gold); font-size: 1rem; text-transform: uppercase; letter-spacing: .08em; }
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .card { margin: 0; border: 1px solid var(--line); border-radius: 14px; padding: 10px; background: rgba(255,255,255,.03); cursor: zoom-in; transition: border-color .25s; }
+  .card:hover { border-color: var(--gold); }
+  .card img { width: 100%; height: auto; border-radius: 12px; display: block; background: #080808; }
+  .card figcaption { padding: 10px 4px 4px; color: var(--muted); font-size: .88rem; line-height: 1.45; }
+  .fig-title { display: block; color: var(--gold); font-weight: 800; margin-bottom: 2px; }
+  .wide { grid-column: 1 / -1; max-width: 560px; }
+  footer { padding: 28px 0 40px; color: var(--muted); font-size: .88rem; text-align: center; border-top: 1px solid rgba(241,212,125,.14); }
+  .lb-overlay { display: none; position: fixed; inset: 0; z-index: 1000; background: rgba(0,0,0,.94); align-items: center; justify-content: center; flex-direction: column; }
+  .lb-overlay.open { display: flex; }
+  #lb-img { max-width: 94vw; max-height: 88vh; object-fit: contain; border-radius: 10px; }
+  .lb-close { position: fixed; top: 16px; right: 20px; color: var(--gold); font-size: 1.8rem; cursor: pointer; z-index: 1020; line-height: 1; }
+  .lb-hint { position: fixed; bottom: 18px; left: 50%; transform: translateX(-50%); color: var(--muted); font-size: .75rem; text-transform: uppercase; letter-spacing: .05em; }
+  @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } .wide { max-width: none; } }
 </style>
 </head>
 <body>
 <header>
-  <h1>1965 Fort Wolters Presentation Lighter — Photo Archive</h1>
-  <p>33 images · full reference set · not the curated sales presentation · Reference ID FW-ARC-0001</p>
+  <h1>1965 Fort Wolters Presentation Lighter — Photo Gallery</h1>
+  <p>6 live images · selected object and context photos · Reference ID FW-ARC-0001</p>
 </header>
 <nav>
   <a href="index.html">General Presentation</a>
   <a href="heritage-consignment.html">Auction / Appraiser Packet</a>
-  <a href="photo-gallery.html"><strong>Full Photo Archive</strong></a>
-  <a href="archive-index.html">Research archive</a>
-  <a href="photos/PHOTO_INDEX.txt">Photo index (text)</a>
+  <a href="photo-gallery.html"><strong>Photo Gallery</strong></a>
+  <a href="archive-index.html">Research Archive</a>
 </nav>
-<div class="wrap">
-<div class="grid">
-<div class="card"><a href="photos/air_medal.jpg" target="_blank" rel="noopener"><img src="photos/air_medal.jpg" alt="Reference image of the U.S. Air Medal with ribbon and service ribbon bar" loading="lazy"></a><p>Reference image of the U.S. Air Medal with full-size ribbon and matching service ribbon bar; supporting context for later service-record research only.</p></div>
-<div class="card"><a href="photos/air_medal_illustration.jpg" target="_blank" rel="noopener"><img src="photos/air_medal_illustration.jpg" alt="Illustrated reference image of the U.S. Air Medal" loading="lazy"></a><p>Illustrated reference image of the U.S. Air Medal and ribbon bar; visual aid for award identification, not object provenance.</p></div>
-<div class="card"><a href="photos/class_group_photo.jpg" target="_blank" rel="noopener"><img src="photos/class_group_photo.jpg" alt="Fort Wolters Class 65-9W group photograph" loading="lazy"></a><p>VHPA class group photograph of Fort Wolters Class 65-9W trainees in summer uniforms, posed outdoors on bleachers; supporting evidence for training-class context.</p></div>
-<div class="card"><a href="photos/class_roster_handwritten.jpg" target="_blank" rel="noopener"><img src="photos/class_roster_handwritten.jpg" alt="Handwritten Class 65-9 WA roster" loading="lazy"></a><p>Handwritten VHPA class roster listing Class 65-9 WA members by row, including Lancy in the top row; supporting evidence for recipient placement.</p></div>
-<div class="card"><a href="photos/helicopter_th55a.jpg" target="_blank" rel="noopener"><img src="photos/helicopter_th55a.jpg" alt="Reference image of Hughes TH-55A Osage helicopter" loading="lazy"></a><p>Reference image of Hughes TH-55A Osage (serial 67-16969) in U.S. Army orange-and-gray trainer markings; aircraft type named on the lighter inscription.</p></div>
-<div class="card"><a href="photos/lighter%20pics_p1_img1.jpeg" target="_blank" rel="noopener"><img src="photos/lighter%20pics_p1_img1.jpeg" alt="Extracted archive image of U.S. Air Medal reference" loading="lazy"></a><p>Extracted archive image: reference photograph of the U.S. Air Medal with ribbon and service ribbon bar; supporting award-context material.</p></div>
-<div class="card"><a href="photos/lighter%20pics_p1_img2.png" target="_blank" rel="noopener"><img src="photos/lighter%20pics_p1_img2.png" alt="Tropic Lightning News Air Medal listing April 3 1967" loading="lazy"></a><p>Extracted archive image: Tropic Lightning News, Page 2 (April 3, 1967), listing Air Medal recipients including WO Arthur P. Lancy, Co. B, 25th Avn. Bn.; service-context evidence only.</p></div>
-<div class="card"><a href="photos/lighter%20pics_p2_img1.jpeg" target="_blank" rel="noopener"><img src="photos/lighter%20pics_p2_img1.jpeg" alt="Extracted archive image of Hughes TH-55A Osage" loading="lazy"></a><p>Extracted archive image: reference photograph of Hughes TH-55A Osage (serial 67-16969) on outdoor display; primary trainer type cited on the lighter.</p></div>
-<div class="card"><a href="photos/lighter%20pics_p2_img2.jpeg" target="_blank" rel="noopener"><img src="photos/lighter%20pics_p2_img2.jpeg" alt="Extracted archive image of Fort Wolters class group portrait" loading="lazy"></a><p>Extracted archive image: group portrait of uniformed trainees posed on outdoor bleachers; Fort Wolters training-class context photograph.</p></div>
-<div class="card"><a href="photos/lighter%20pics_p3_img1.jpeg" target="_blank" rel="noopener"><img src="photos/lighter%20pics_p3_img1.jpeg" alt="Extracted archive image of handwritten Class 65-9 WA roster" loading="lazy"></a><p>Extracted archive image: handwritten Class 65-9 WA roster on notebook paper, listing members by row with Lancy in the top row; VHPA supporting evidence.</p></div>
-<div class="card"><a href="photos/lighter%20pics_p4_img1.jpeg" target="_blank" rel="noopener"><img src="photos/lighter%20pics_p4_img1.jpeg" alt="Obverse view of Class 65-9WA presentation lighter" loading="lazy"></a><p>Extracted archive image: obverse view of presentation lighter showing Class 65-9WA marking and Hughes World Leader helicopter insignia.</p></div>
-<div class="card"><a href="photos/lighter%20pics_p5_img1.jpeg" target="_blank" rel="noopener"><img src="photos/lighter%20pics_p5_img1.jpeg" alt="Reverse inscription panel on presentation lighter" loading="lazy"></a><p>Extracted archive image: reverse inscription panel naming WOC Arthur P. Lancy Jr. and identifying the lighter as a presentation piece for the first graduating class using the Hughes TH-55A helicopter at Fort Wolters, 1965.</p></div>
-<div class="card"><a href="photos/lighter%20pics_p6_img1.jpeg" target="_blank" rel="noopener"><img src="photos/lighter%20pics_p6_img1.jpeg" alt="Bottom base stamp on presentation lighter" loading="lazy"></a><p>Extracted archive image: bottom/base stamp reading PARK Lighter, MADE IN U.S.A.; manufacturer marking on the presentation lighter.</p></div>
-<div class="card"><a href="photos/lighter-1.jpg" target="_blank" rel="noopener"><img src="photos/lighter-1.jpg" alt="Composite Air Medal and Tropic Lightning News reference" loading="lazy"></a><p>Composite reference image pairing Air Medal illustration with Tropic Lightning News award listings (Page 2, April 3, 1967); supporting service-context evidence only.</p></div>
-<div class="card"><a href="photos/lighter-13.jpg" target="_blank" rel="noopener"><img src="photos/lighter-13.jpg" alt="PARK Lighter manufacturer marking close-up" loading="lazy"></a><p>Close-up of chrome lighter panel stamped PARK Lighter, MADE IN U.S.A.; manufacturer marking supporting object identification.</p></div>
-<div class="card"><a href="photos/lighter-15.jpg" target="_blank" rel="noopener"><img src="photos/lighter-15.jpg" alt="Alternate obverse view of Class 65-9WA presentation lighter" loading="lazy"></a><p>Alternate obverse view of presentation lighter showing Class 65-9WA text and Hughes World Leader insignia with visible hinge and striker area.</p></div>
-<div class="card"><a href="photos/lighter-16.jpg" target="_blank" rel="noopener"><img src="photos/lighter-16.jpg" alt="Reverse inscription with lid open showing striker mechanism" loading="lazy"></a><p>Reverse inscription panel with lid open, showing full presentation text to WOC Arthur P. Lancy Jr.; flint striker wheel and chimney mechanism visible at top.</p></div>
-<div class="card"><a href="photos/lighter-2.jpg" target="_blank" rel="noopener"><img src="photos/lighter-2.jpg" alt="Composite TH-55A reference and class group portrait" loading="lazy"></a><p>Composite context image: Hughes TH-55A trainer reference (upper) and Fort Wolters-era class group portrait on bleachers (lower).</p></div>
-<div class="card"><a href="photos/lighter-3.jpg" target="_blank" rel="noopener"><img src="photos/lighter-3.jpg" alt="Handwritten Class 65-9 RW roster" loading="lazy"></a><p>Handwritten Class 65-9 RW roster listing trainees by row, including Lancy in the top row; VHPA archive supporting evidence.</p></div>
-<div class="card"><a href="photos/lighter-4.jpg" target="_blank" rel="noopener"><img src="photos/lighter-4.jpg" alt="Obverse view of Class 65-9WA presentation lighter" loading="lazy"></a><p>Obverse view of presentation lighter showing Class 65-9WA marking and Hughes World Leader helicopter logo insignia.</p></div>
-<div class="card"><a href="photos/lighter-5.jpg" target="_blank" rel="noopener"><img src="photos/lighter-5.jpg" alt="Reverse inscription panel on presentation lighter" loading="lazy"></a><p>Reverse inscription panel naming WOC Arthur P. Lancy Jr. and citing the first graduating class using the Hughes TH-55A at Fort Wolters Primary Helicopter Training School, 1965.</p></div>
-<div class="card"><a href="photos/lighter-6.jpg" target="_blank" rel="noopener"><img src="photos/lighter-6.jpg" alt="Top panel PARK Lighter manufacturer marking" loading="lazy"></a><p>Top-panel view showing PARK Lighter, MADE IN U.S.A. brand marking on the presentation lighter case.</p></div>
-<div class="card"><a href="photos/lighter_back.jpg" target="_blank" rel="noopener"><img src="photos/lighter_back.jpg" alt="Reverse inscription panel on presentation lighter" loading="lazy"></a><p>Reverse inscription panel with full commemorative text presented to WOC Arthur P. Lancy Jr., Fort Wolters, 1965.</p></div>
-<div class="card"><a href="photos/lighter_bottom.jpg" target="_blank" rel="noopener"><img src="photos/lighter_bottom.jpg" alt="Bottom base stamp on presentation lighter" loading="lazy"></a><p>Bottom/base stamp on cream enamel panel: PARK Lighter, MADE IN U.S.A.; Park Industries manufacturer marking.</p></div>
-<div class="card"><a href="photos/lighter_collector_final_from_originals.jpg" target="_blank" rel="noopener"><img src="photos/lighter_collector_final_from_originals.jpg" alt="Obverse view of Class 65-9WA presentation lighter" loading="lazy"></a><p>Obverse view of the Class 65-9WA presentation lighter showing Hughes World Leader insignia; collector documentation composite from original photographs.</p></div>
-<div class="card"><a href="photos/lighter_front.jpg" target="_blank" rel="noopener"><img src="photos/lighter_front.jpg" alt="Obverse front view of Class 65-9WA presentation lighter" loading="lazy"></a><p>Obverse/front view of presentation lighter engraved Class 65-9WA above the circular Hughes World Leader helicopter emblem.</p></div>
-<div class="card"><a href="photos/lighter_image-1.jpg" target="_blank" rel="noopener"><img src="photos/lighter_image-1.jpg" alt="Reference image of Hughes TH-55A Osage on display" loading="lazy"></a><p>Reference image of Hughes TH-55A Osage (tail marking GT-10666) on display; aircraft type named in the lighter inscription.</p></div>
-<div class="card"><a href="photos/lighter_image-3.jpg" target="_blank" rel="noopener"><img src="photos/lighter_image-3.jpg" alt="Handwritten Class 65-9 WA roster alternate scan" loading="lazy"></a><p>Handwritten Class 65-9 WA roster on aged paper, listing class members by row; alternate scan of VHPA name-list supporting evidence.</p></div>
+<main class="wrap">
+  <p class="note">This page now matches the live selected photo set. Extra duplicates, PDF extractions, and research-only images were removed from this public gallery.</p>
 
-<div class="card"><a href="photos/pic_2.jpg" target="_blank" rel="noopener"><img src="photos/pic_2.jpg" alt="Reverse inscription panel on presentation lighter" loading="lazy"></a><p>Reverse inscription panel on presentation lighter naming WOC Arthur P. Lancy Jr. and Fort Wolters TH-55A graduating-class text, 1965.</p></div>
-<div class="card"><a href="photos/pic_3.jpg" target="_blank" rel="noopener"><img src="photos/pic_3.jpg" alt="Close-up of PARK Lighter top panel marking" loading="lazy"></a><p>Close-up of top panel held in hand, showing PARK Lighter, MADE IN U.S.A. manufacturer marking.</p></div>
-<div class="card"><a href="photos/pic_7.jpg" target="_blank" rel="noopener"><img src="photos/pic_7.jpg" alt="Composite TH-55A in flight and class group portrait" loading="lazy"></a><p>Composite context image: TH-55A helicopter in low flight (upper) and class group portrait on bleachers (lower); training-era reference material.</p></div>
-<div class="card"><a href="photos/pic_7_combined.jpg" target="_blank" rel="noopener"><img src="photos/pic_7_combined.jpg" alt="Class 65-9 WA group photo with handwritten roster" loading="lazy"></a><p>Composite archive image pairing Class 65-9 WA group photograph with handwritten row-by-row roster including Lancy; VHPA supporting evidence.</p></div>
-<div class="card"><a href="photos/pic_8.png" target="_blank" rel="noopener"><img src="photos/pic_8.png" alt="Handwritten Class 65-9 WA roster on notebook paper" loading="lazy"></a><p>Handwritten Class 65-9 WA roster on lined notebook paper; supporting evidence for Arthur P. Lancy Jr. placement in the graduating class.</p></div>
+  <section class="category">
+    <h2>A. Object Photos</h2>
+    <div class="grid">
+      <figure class="card" onclick="openLightbox('assets/images/lighter-4.jpg')"><img src="assets/images/lighter-4.jpg" alt="Obverse front view showing Class 65-9WA marking and Hughes World Leader helicopter insignia" loading="lazy" /><figcaption><span class="fig-title">Obverse</span>Front view showing Class 65-9WA marking and Hughes World Leader helicopter insignia.</figcaption></figure>
+      <figure class="card" onclick="openLightbox('assets/images/lighter-5.jpg')"><img src="assets/images/lighter-5.jpg" alt="Reverse inscription panel naming WOC Arthur P. Lancy Jr." loading="lazy" /><figcaption><span class="fig-title">Reverse</span>Full commemorative inscription naming WOC Arthur P. Lancy Jr. and Fort Wolters TH-55A class text.</figcaption></figure>
+      <figure class="card" onclick="openLightbox('assets/images/lighter-16.jpg')"><img src="assets/images/lighter-16.jpg" alt="Lid-open view showing reverse inscription with flint striker wheel and chimney mechanism" loading="lazy" /><figcaption><span class="fig-title">Mechanism</span>Lid-open view showing the inscription with striker wheel and chimney mechanism visible.</figcaption></figure>
+      <figure class="card" onclick="openLightbox('assets/images/lighter-13.jpg')"><img src="assets/images/lighter-13.jpg" alt="Manufacturer marking PARK Lighter MADE IN U.S.A." loading="lazy" /><figcaption><span class="fig-title">Maker stamp</span>Manufacturer marking showing PARK Lighter / MADE IN U.S.A.</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="category">
+    <h2>B. Context Photos</h2>
+    <div class="grid">
+      <figure class="card wide" onclick="openLightbox('assets/images/class-65-9w-group-photo-with-roster.jpg')"><img src="assets/images/class-65-9w-group-photo-with-roster.jpg" alt="VHPA Class 65-9W group photograph with handwritten name roster below" loading="lazy" /><figcaption><span class="fig-title">Class photo &amp; roster</span>VHPA class group photograph with handwritten roster directly below; supporting evidence for Class 65-9W placement.</figcaption></figure>
+      <figure class="card" onclick="openLightbox('assets/images/th55a-helicopter-reference.png')"><img src="assets/images/th55a-helicopter-reference.png" alt="Reference image of Hughes TH-55A Osage helicopter" loading="lazy" /><figcaption><span class="fig-title">TH-55A</span>Reference image of the Hughes TH-55A Osage, the trainer named in the lighter inscription.</figcaption></figure>
+    </div>
+  </section>
+</main>
+<footer>
+  Reference ID: FW-ARC-0001 · Fort Wolters Class 65-9WA Research Archive · June 2026<br>
+  <a href="index.html">General presentation</a> ·
+  <a href="heritage-consignment.html">Auction / appraiser packet</a> ·
+  <a href="photo-gallery.html">Photo gallery</a> ·
+  <a href="archive-index.html">Research archive</a>
+</footer>
+<div class="lb-overlay" id="lb">
+  <span class="lb-close" id="lb-close" role="button" aria-label="Close">×</span>
+  <img id="lb-img" src="" alt="Expanded photograph" />
+  <div class="lb-hint">Click outside to close</div>
 </div>
-</div>
+<script>
+const lb = document.getElementById('lb');
+const lbImg = document.getElementById('lb-img');
+function openLightbox(src) {
+  lbImg.src = src;
+  lb.classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeLightbox() {
+  lb.classList.remove('open');
+  document.body.style.overflow = '';
+}
+lb.addEventListener('click', closeLightbox);
+document.getElementById('lb-close').addEventListener('click', (e) => { e.stopPropagation(); closeLightbox(); });
+lbImg.addEventListener('click', (e) => e.stopPropagation());
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeLightbox(); });
+</script>
 </body>
 </html>
